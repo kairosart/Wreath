@@ -6,7 +6,6 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
-        "dimension": 66.04784005712246,
         "children": [
           {
             "id": "5abee70efbde0908",
@@ -44,34 +43,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTRO/Accessing the Network.md",
+                "file": "WEBSERVER/Enumeration.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Accessing the Network"
+              "title": "Enumeration"
             }
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "916459c5b976f019",
-        "type": "tabs",
-        "dimension": 33.95215994287754,
-        "children": [
-          {
-            "id": "d06651bfdaedd19b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -144,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md",
+                "file": "WEBSERVER/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Task 40 - SEATBELT CHECK!"
+              "title": "Outgoing links from Enumeration"
             }
           },
           {
@@ -171,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INTRO/Accessing the Network.md"
+                "file": "WEBSERVER/Enumeration.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Accessing the Network"
+              "title": "Outline of Enumeration"
             }
           },
           {
@@ -183,8 +165,8 @@
             "state": {
               "type": "juggl_nodes",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
             }
           },
           {
@@ -193,8 +175,8 @@
             "state": {
               "type": "juggl_style",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "ag-style",
+              "title": "Juggl style"
             }
           },
           {
@@ -203,8 +185,8 @@
             "state": {
               "type": "juggl_nodes",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
             }
           },
           {
@@ -297,11 +279,12 @@
               "title": "Juggl style"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -320,12 +303,21 @@
   },
   "active": "d43667b4fc6b55fc",
   "lastOpenFiles": [
-    "Index.md",
+    "Enumeration-20241125145456314.webp",
     "INTRO/Accessing the Network.md",
+    "INTRO/Backstory.md",
+    "WEBSERVER/Enumeration.md",
+    "INTRO/Brief.md",
+    "WEBSERVER",
+    "images/Index-20241124134005002.webp",
+    "images/Accessing the Network-20241125140721892.webp",
+    "images/Accessing the Network-20241125141256865.webp",
+    "images/Accessing the Network-20241125141209104.webp",
+    "images/Accessing the Network-20241125140952640.webp",
+    "Index.md",
     "README.md",
     "INTRO",
-    "Index-20241124134408752.webp",
-    "Index-20241124134005002.webp",
+    "images/Index-20241124134408752.webp",
     "images",
     "index.md",
     "NTLM RELAY/Task 47 - Why not just turn it off?.md",
@@ -346,25 +338,16 @@
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
     "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
-    "WEB APP EXPLOITATION/Task 29 - Thanks, I'll let myself in..md",
-    "WEB APP EXPLOITATION/Task 13 - Remote Control Empanadas.md",
-    "WEB APP EXPLOITATION/Task 12 -  What is this? Vulnversity?.md",
-    "WEB APP EXPLOITATION/Task 10 - What the Fuzz?.md",
     "Images/Task 46 - Now you see me, now you don't-20241121143522528.webp",
     "Images/Task 48 - Ready your weapons-20241123142537654.webp",
     "Images/Task 47 - Why not just turn it off?-20241122150405855.webp",
     "Images/Task 47 - Why not just turn it off?-20241122150133824.webp",
-    "Images/Task 47 - Why not just turn it off?-20241122144645114.webp",
-    "Images/Task 46 - Now you see me, now you don't-20241121145030701.webp",
-    "Images/Task 46 - Now you see me, now you don't-20241121144700066.webp",
     "NTLM RELAY",
-    "Images/Task 44 - WERE TAKING OVER THIS DLL! Part II-20241121134539981.webp",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",
     "AV EVASION",
     "docs/lib/metadata.json",
     "docs/lib/media",
-    "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "docs/lib/fonts/cb10ffd7684cd9836a05.woff2"
+    "docs/lib/fonts/cbe0ae49c52c920fd563.woff2"
   ]
 }
