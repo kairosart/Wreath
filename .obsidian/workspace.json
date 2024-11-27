@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEBSERVER/Enumeration.md",
+                "file": "WEBSERVER/Exploitation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeration"
+              "title": "Exploitation"
             }
           }
         ],
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEBSERVER/Enumeration.md",
+                "file": "WEBSERVER/Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Enumeration"
+              "title": "Outgoing links from Exploitation"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WEBSERVER/Enumeration.md"
+                "file": "WEBSERVER/Exploitation.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Enumeration"
+              "title": "Outline of Exploitation"
             }
           },
           {
@@ -303,11 +303,15 @@
   },
   "active": "d43667b4fc6b55fc",
   "lastOpenFiles": [
-    "Enumeration-20241125145456314.webp",
+    "Exploitation-20241127151941324.webp",
+    "WEBSERVER/Enumeration.md",
+    "WEBSERVER/Exploitation.md",
+    "Exploitation-20241127151137527.webp",
+    "images/Enumeration-20241127145246429.webp",
+    "INTRO/Brief.md",
+    "images/Enumeration-20241125145456314.webp",
     "INTRO/Accessing the Network.md",
     "INTRO/Backstory.md",
-    "WEBSERVER/Enumeration.md",
-    "INTRO/Brief.md",
     "WEBSERVER",
     "images/Index-20241124134005002.webp",
     "images/Accessing the Network-20241125140721892.webp",
@@ -337,11 +341,7 @@
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
     "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
-    "POST EXPLOITATION/Task 14 - Meterpreter session 1 closed. Reason RUH ROH.md",
     "Images/Task 46 - Now you see me, now you don't-20241121143522528.webp",
-    "Images/Task 48 - Ready your weapons-20241123142537654.webp",
-    "Images/Task 47 - Why not just turn it off?-20241122150405855.webp",
-    "Images/Task 47 - Why not just turn it off?-20241122150133824.webp",
     "NTLM RELAY",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",
