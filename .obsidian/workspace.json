@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEBSERVER/Exploitation.md",
+                "file": "PIVOTING/High-level Overview.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exploitation"
+              "title": "High-level Overview"
             }
           }
         ],
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WEBSERVER/Exploitation.md",
+                "file": "PIVOTING/High-level Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Exploitation"
+              "title": "Outgoing links from High-level Overview"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WEBSERVER/Exploitation.md"
+                "file": "PIVOTING/High-level Overview.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Exploitation"
+              "title": "Outline of High-level Overview"
             }
           },
           {
@@ -303,10 +303,17 @@
   },
   "active": "d43667b4fc6b55fc",
   "lastOpenFiles": [
-    "Exploitation-20241127151941324.webp",
-    "WEBSERVER/Enumeration.md",
+    "PIVOTING/What is Pivoting?.md",
+    "PIVOTING/High-level Overview.md",
+    "What is Pivoting?-20241129151102233.webp",
     "WEBSERVER/Exploitation.md",
-    "Exploitation-20241127151137527.webp",
+    "Index.md",
+    "PIVOTING",
+    "WEBSERVER/Enumeration.md",
+    "images/Exploitation-20241127151137527.webp",
+    "images/Exploitation-20241129144943322.webp",
+    "images/Exploitation-20241129143642892.webp",
+    "images/Exploitation-20241127151941324.webp",
     "images/Enumeration-20241127145246429.webp",
     "INTRO/Brief.md",
     "images/Enumeration-20241125145456314.webp",
@@ -316,12 +323,8 @@
     "images/Index-20241124134005002.webp",
     "images/Accessing the Network-20241125140721892.webp",
     "images/Accessing the Network-20241125141256865.webp",
-    "images/Accessing the Network-20241125141209104.webp",
-    "images/Accessing the Network-20241125140952640.webp",
-    "Index.md",
     "README.md",
     "INTRO",
-    "images/Index-20241124134408752.webp",
     "images",
     "index.md",
     "NTLM RELAY/Task 47 - Why not just turn it off?.md",
@@ -340,14 +343,11 @@
     "PRIVILEGE ESCALATION/Task 20 - Call me Mario, because I got all the bits.md",
     "DOCKER BREAKOUT/Task 19 - Going%20out%20with%20a%20SHEBANG%21.md",
     "DOCKER BREAKOUT/Task 18 - Making Thin Lizzy Proud.md",
-    "FLAG SUBMISSION/Task 4 - Flag Submission Panel.md",
-    "Images/Task 46 - Now you see me, now you don't-20241121143522528.webp",
     "NTLM RELAY",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",
     "AV EVASION",
     "docs/lib/metadata.json",
-    "docs/lib/media",
-    "docs/lib/fonts/cbe0ae49c52c920fd563.woff2"
+    "docs/lib/media"
   ]
 }
