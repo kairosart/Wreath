@@ -33,5 +33,5 @@ Before we start, if you are using Kali, make sure that it's up to date:
 
 This should not be necessary on the AttackBox.
 
-**Next step:** [[Enumeration]]
+**Next step:** [[WEBSERVER/Enumeration]]
 
