@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIVOTING/High-level Overview.md",
+                "file": "PIVOTING/plink.exe.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "High-level Overview"
+              "title": "plink.exe"
             }
           },
           {
@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
+                "file": "PIVOTING/Socat.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSH Tunnelling  - Port Forwarding"
+              "title": "Socat"
             }
           }
         ],
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
+                "file": "PIVOTING/Socat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SSH Tunnelling  - Port Forwarding"
+              "title": "Outgoing links from Socat"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PIVOTING/SSH Tunnelling  - Port Forwarding.md"
+                "file": "PIVOTING/Socat.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of SSH Tunnelling  - Port Forwarding"
+              "title": "Outline of Socat"
             }
           },
           {
@@ -303,9 +303,17 @@
   },
   "active": "d43667b4fc6b55fc",
   "lastOpenFiles": [
-    "PIVOTING/High-level Overview.md",
-    "PIVOTING/What is Pivoting?.md",
+    "Socat-20241206152606817.webp",
+    "images/SSH Tunnelling  - Port Forwarding-20241206144525160.webp",
+    "PIVOTING/Socat.md",
+    "PIVOTING/plink.exe.md",
     "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
+    "PIVOTING/High-level Overview.md",
+    "images/SSH Tunnelling  - Port Forwarding-20241206145743341.webp",
+    "images/SSH Tunnelling  - Port Forwarding-20241206145700214.webp",
+    "images/SSH Tunnelling  - Port Forwarding-20241206144943302.webp",
+    "images/SSH Tunnelling  - Port Forwarding-20241206144824201.webp",
+    "PIVOTING/What is Pivoting?.md",
     "PIVOTING/Proxychains & Foxyproxy.md",
     "images/Proxychains & Foxyproxy-20241130142414937.webp",
     "PIVOTING/Enumeration.md",
@@ -313,19 +321,14 @@
     "images/Proxychains & Foxyproxy-20241130143201635.webp",
     "images/Proxychains & Foxyproxy-20241130143034338.webp",
     "images/Proxychains & Foxyproxy-20241130142956191.webp",
-    "images/Proxychains & Foxyproxy-20241130142710420.webp",
-    "images/Proxychains & Foxyproxy-20241130142633475.webp",
     "WEBSERVER/Exploitation.md",
     "INTRO/Accessing the Network.md",
     "INTRO/Backstory.md",
     "INTRO/Brief.md",
     "README.md",
-    "images/What is Pivoting?-20241129151102233.webp",
     "Index.md",
     "PIVOTING",
     "WEBSERVER/Enumeration.md",
-    "images/Exploitation-20241127151137527.webp",
-    "images/Exploitation-20241129144943322.webp",
     "WEBSERVER",
     "INTRO",
     "images",
@@ -340,8 +343,6 @@
     "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
     "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
     "AV EVASION/Task 35 - Wrapping the burrito.md",
-    "WEB APP EXPLOITATION/Task 28 - Hide yo' Kids, Hide yo' Wives, Hide yo' Tokens.md",
-    "PIVOTING/Task 23 - Digging a tunnel to nowhere.md",
     "NTLM RELAY",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",
