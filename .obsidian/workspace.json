@@ -51,9 +51,24 @@
               "icon": "lucide-file",
               "title": "Socat"
             }
+          },
+          {
+            "id": "1fcbac130ecd92f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PIVOTING/Chisel.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chisel"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "68fd4a1bf3817dcd",
@@ -153,10 +169,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PIVOTING/Socat.md"
+                "file": "PIVOTING/Chisel.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Socat"
+              "title": "Outline of Chisel"
             }
           },
           {
@@ -301,34 +317,34 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d43667b4fc6b55fc",
+  "active": "1fcbac130ecd92f3",
   "lastOpenFiles": [
-    "Socat-20241206152606817.webp",
-    "images/SSH Tunnelling  - Port Forwarding-20241206144525160.webp",
-    "PIVOTING/Socat.md",
     "PIVOTING/plink.exe.md",
+    "PIVOTING/Chisel.md",
+    "Chisel-20241209145727324.webp",
+    "Chisel-20241209145533999.webp",
+    "Chisel-20241209145423168.webp",
+    "WEBSERVER/Enumeration.md",
+    "WEBSERVER/Exploitation.md",
+    "PIVOTING/Socat.md",
+    "images/Socat-20241206152606817.webp",
+    "images/Socat-20241209143701938.webp",
+    "images/Socat-20241209142851626.webp",
+    "images/Socat-20241209142434718.webp",
+    "images/SSH Tunnelling  - Port Forwarding-20241206144525160.webp",
     "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
     "PIVOTING/High-level Overview.md",
     "images/SSH Tunnelling  - Port Forwarding-20241206145743341.webp",
     "images/SSH Tunnelling  - Port Forwarding-20241206145700214.webp",
-    "images/SSH Tunnelling  - Port Forwarding-20241206144943302.webp",
-    "images/SSH Tunnelling  - Port Forwarding-20241206144824201.webp",
     "PIVOTING/What is Pivoting?.md",
     "PIVOTING/Proxychains & Foxyproxy.md",
-    "images/Proxychains & Foxyproxy-20241130142414937.webp",
     "PIVOTING/Enumeration.md",
-    "images/Proxychains & Foxyproxy-20241130143241712.webp",
-    "images/Proxychains & Foxyproxy-20241130143201635.webp",
-    "images/Proxychains & Foxyproxy-20241130143034338.webp",
-    "images/Proxychains & Foxyproxy-20241130142956191.webp",
-    "WEBSERVER/Exploitation.md",
     "INTRO/Accessing the Network.md",
     "INTRO/Backstory.md",
     "INTRO/Brief.md",
     "README.md",
     "Index.md",
     "PIVOTING",
-    "WEBSERVER/Enumeration.md",
     "WEBSERVER",
     "INTRO",
     "images",
@@ -342,7 +358,6 @@
     "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
     "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
     "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
-    "AV EVASION/Task 35 - Wrapping the burrito.md",
     "NTLM RELAY",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",
