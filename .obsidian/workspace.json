@@ -43,25 +43,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIVOTING/Socat.md",
+                "file": "PIVOTING/sshuttle.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Socat"
+              "title": "sshuttle"
             }
           },
           {
             "id": "1fcbac130ecd92f3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Chisel-20241209145423168.webp"
+                "file": "PIVOTING/Conclusion.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Chisel-20241209145423168"
+              "icon": "lucide-file",
+              "title": "Conclusion"
             }
           }
         ],
@@ -165,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Chisel-20241209145423168.webp"
+                "file": "PIVOTING/Conclusion.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Chisel-20241209145423168"
+              "title": "Outline of Conclusion"
             }
           },
           {
@@ -313,16 +316,18 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6c994e66ece44a7b",
+  "active": "1fcbac130ecd92f3",
   "lastOpenFiles": [
-    "PIVOTING/Chisel.md",
     "PIVOTING/plink.exe.md",
+    "PIVOTING/Conclusion.md",
+    "PIVOTING/sshuttle.md",
+    "PIVOTING/Chisel.md",
+    "PIVOTING/Socat.md",
+    "images/Chisel-20241209145423168.webp",
     "images/Chisel-20241209145727324.webp",
     "images/Chisel-20241209145533999.webp",
-    "images/Chisel-20241209145423168.webp",
     "WEBSERVER/Enumeration.md",
     "WEBSERVER/Exploitation.md",
-    "PIVOTING/Socat.md",
     "images/Socat-20241206152606817.webp",
     "images/Socat-20241209143701938.webp",
     "images/Socat-20241209142851626.webp",
@@ -353,7 +358,6 @@
     "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
     "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
     "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
-    "POST EXPLOITATION/Task 36 -  That's not a cat that's a dawg.md",
     "NTLM RELAY",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",
