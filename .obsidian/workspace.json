@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIVOTING/plink.exe.md",
+                "file": "WEBSERVER/Exploitation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "plink.exe"
+              "title": "Exploitation"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "GIT SERVER/Enumeration.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Enumeration"
             }
           },
           {
@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIVOTING/sshuttle.md",
+                "file": "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sshuttle"
+              "title": "SSH Tunnelling  - Port Forwarding"
             }
           },
           {
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PIVOTING/Conclusion.md"
+                "file": "GIT SERVER/Enumeration.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Conclusion"
+              "title": "Outline of Enumeration"
             }
           },
           {
@@ -316,27 +316,31 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1fcbac130ecd92f3",
+  "active": "43bfa86a51cfd12d",
   "lastOpenFiles": [
-    "PIVOTING/plink.exe.md",
+    "Enumeration-20241212151823782.webp",
+    "WEBSERVER/Exploitation.md",
+    "GIT SERVER/Enumeration.md",
+    "Enumeration-20241212150151042.webp",
     "PIVOTING/Conclusion.md",
-    "PIVOTING/sshuttle.md",
-    "PIVOTING/Chisel.md",
+    "WEBSERVER/Enumeration.md",
+    "GIT SERVER",
+    "Conclusion-20241212145105725.webp",
+    "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
     "PIVOTING/Socat.md",
+    "Index.md",
+    "PIVOTING/sshuttle.md",
+    "PIVOTING/plink.exe.md",
+    "PIVOTING/Chisel.md",
     "images/Chisel-20241209145423168.webp",
     "images/Chisel-20241209145727324.webp",
     "images/Chisel-20241209145533999.webp",
-    "WEBSERVER/Enumeration.md",
-    "WEBSERVER/Exploitation.md",
     "images/Socat-20241206152606817.webp",
     "images/Socat-20241209143701938.webp",
     "images/Socat-20241209142851626.webp",
     "images/Socat-20241209142434718.webp",
     "images/SSH Tunnelling  - Port Forwarding-20241206144525160.webp",
-    "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
     "PIVOTING/High-level Overview.md",
-    "images/SSH Tunnelling  - Port Forwarding-20241206145743341.webp",
-    "images/SSH Tunnelling  - Port Forwarding-20241206145700214.webp",
     "PIVOTING/What is Pivoting?.md",
     "PIVOTING/Proxychains & Foxyproxy.md",
     "PIVOTING/Enumeration.md",
@@ -344,7 +348,6 @@
     "INTRO/Backstory.md",
     "INTRO/Brief.md",
     "README.md",
-    "Index.md",
     "PIVOTING",
     "WEBSERVER",
     "INTRO",
@@ -356,13 +359,10 @@
     "PRIVILEGE ESCALATION/Task 43 - WERE TAKING OVER THIS DLL!.md",
     "SITUATIONAL AWARANESS/Task 40 - SEATBELT CHECK!.md",
     "SITUATIONAL AWARANESS/Task 39 - So it's just fancy malware?.md",
-    "POST EXPLOITATION/Task 38 - Watson left her locker open.md",
-    "POST EXPLOITATION/Task 37 - Good Intentions, Courtesy of Microsoft - Part II.md",
     "NTLM RELAY",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",
     "AV EVASION",
-    "docs/lib/metadata.json",
-    "docs/lib/media"
+    "docs/lib/metadata.json"
   ]
 }

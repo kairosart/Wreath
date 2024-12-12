@@ -20,3 +20,17 @@ This is a good time to experiment with the techniques demonstrated in the pivoti
 >If using socat, or any other techniques that open up a port on the compromised host (in the course of this network), please make sure to use a port above 15000, for the sake of other users in earlier sections of the course.
 
 
+---
+
+# Your job
+
+I've choose SSH Proxy to pivot to the the following machine on the network.
+
+```
+$ ssh -D 1337 root@10.200.84.200 -i id_rsa -fN
+
+```
+
+
+
+
