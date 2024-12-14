@@ -57,3 +57,29 @@ There are the following valid IPs:
 `10.200.84.100`
 `10.200.84.150`
 
+- Scan the machines.
+- root@prod-serv tmp]# `./nmap-KAIROS 10.200.84.100`
+	![[Enumeration-20241214142632468.webp]]
+- root@prod-serv tmp]# `./nmap-KAIROS -p-15000 -T5 10.200.84.150`
+
+	![[Enumeration-20241214142537599.webp]]
+
+
+---
+
+> [!question]
+> 1. Excluding the out of scope hosts, and the current host (`.200`), how many hosts were discovered active on the network? 
+> `2`
+> 2. In ascending order, what are the last octets of these host IPv4 addresses? (e.g. if the address was 172.16.0.80, submit the 80)
+> `100,150`
+> 3. Scan the hosts -- which one does _not_ return a status of "filtered" for every port (submit the last octet only)?  
+> `150`
+> 4. Let's assume that the other host is inaccessible from our current position in the network. Which TCP ports (in ascending order, comma separated) below port 15000, are open on the remaining target?  
+> `80,3389,5985`
+> 5. We cannot currently perform a service detection scan on the target without first setting up a proxy, so for the time being, let's assume that the services Nmap has identified based on their port number are accurate. (Please feel free to experiment with other scan types through a proxy after completing the pivoting section). Assuming that the service guesses made by Nmap are accurate, which of the found services is more likely to contain an exploitable vulnerability?
+> `HTTP`
+
+Now that we have an idea about the other hosts on the network, we can start looking at some of the tools and techniques we could use to access them!
+
+**Next step:** [[Pivoting]]
+

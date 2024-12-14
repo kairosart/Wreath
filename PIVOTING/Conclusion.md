@@ -31,6 +31,7 @@ $ ssh -D 1337 root@10.200.84.200 -i id_rsa -fN
 
 ```
 
+**Next step:** [[GIT SERVER/Enumeration|Enumeration]]
 
 
 
