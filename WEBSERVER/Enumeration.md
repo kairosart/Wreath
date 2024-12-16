@@ -65,7 +65,7 @@ In real life we would perform a **"footprinting"** phase of the engagement at th
 > `CVE-2019-15107`
 
 
-**Next step:** [[Exploitation]]
+**Next step:** [[WEBSERVER/Exploitation]]
 
 
 

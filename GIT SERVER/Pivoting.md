@@ -6,7 +6,7 @@ As a word of advice: sshuttle is highly recommended for creating an initial acce
 
 > [!question]
 >1. What is the name of the program running the service? Hint: When you first connect to the service you will see an error screen with three expected routing patterns given. The second pattern (without the symbols at the start and end) is the answer to this question. Append it to the URL to get to a login screen.
->Gitstack
+>`Gitstack`
 >2. Head to the login screen of this application. This can be done by adding the answer to the previous question on at the end of the url, e.g. if using sshuttle:  `http://IP/ANSWER`. When navigating to this URI, we are given the following login page:
 >![[Pivoting-20241214145333847.webp]]
 >Do these default credentials work (Aye/Nay)?
