@@ -23,18 +23,6 @@
             }
           },
           {
-            "id": "06ddb8e1aead9f0b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Enumeration-20241214142632468.webp"
-              },
-              "icon": "lucide-image",
-              "title": "Enumeration-20241214142632468"
-            }
-          },
-          {
             "id": "0ac2b46965dca870",
             "type": "leaf",
             "state": {
@@ -80,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -330,28 +318,28 @@
   },
   "active": "1fcbac130ecd92f3",
   "lastOpenFiles": [
-    "GIT SERVER/Code review.md",
+    "images/Exploitation-20241222140336390.webp",
+    "images/Exploitation-20241222152545435.webp",
     "GIT SERVER/Exploitation.md",
+    "images/Exploitation-20241222152701712.webp",
+    "images/Exploitation-20241222145746536.webp",
+    "images/Exploitation-20241222145720411.webp",
+    "GIT SERVER/Code review.md",
+    "PIVOTING/sshuttle.md",
+    "images/Enumeration-20241214142632468.webp",
+    "images/Exploitation-20241222145319679.webp",
+    "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
+    "PIVOTING/Conclusion.md",
+    "GIT SERVER/Enumeration.md",
     "GIT SERVER/Pivoting.md",
+    "images/Exploitation-20241222141211867.webp",
     "images/Code review-20241216143323215.webp",
     "images/Code review-20241216141902861.webp",
-    "images/Code review-20241216142012458.webp",
-    "images/Code review-20241216143435320.webp",
-    "images/Code review-20241216143550201.webp",
-    "images/Code review-20241216145911541.webp",
-    "PIVOTING/sshuttle.md",
     "WEBSERVER/Exploitation.md",
     "1.md",
-    "GIT SERVER/Enumeration.md",
-    "images/Enumeration-20241214142537599.webp",
     "README.md",
     "Index.md",
-    "images/Enumeration-20241214142632468.webp",
-    "images/Pivoting-20241214145333847.webp",
     "WEBSERVER/Enumeration.md",
-    "images/Pivoting-20241214145850612.webp",
-    "PIVOTING/Conclusion.md",
-    "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
     "GIT SERVER",
     "PIVOTING/Socat.md",
     "PIVOTING/plink.exe.md",
@@ -370,7 +358,6 @@
     "index.md",
     "NTLM RELAY/Task 47 - Why not just turn it off?.md",
     "NTLM RELAY/Task 46 - Now you see me, now you don't.md",
-    "PERSISTENCE/Task 44 - WERE TAKING OVER THIS DLL! Part II.md",
     "NTLM RELAY",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",
