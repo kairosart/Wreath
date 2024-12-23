@@ -15,14 +15,14 @@ $ nmap -p-15000 -vv 10.200.84.200 -oG initial-scan -oN nmap_output.txt -Pn
 
 ![[Enumeration-20241125145456314.webp]]
 
-### Port 10000 Server Version
+### A more in-depth Nmap scan
 
 ```
-$ nmap -sV -p 10000 10.200.84.200 
+$ sudo nmap -sS -sC -sV -O -A 10.200.84.200 
 ```
 
+![[Enumeration-20241223144512758.webp]]
 
-![[Enumeration-20241127145246429.webp]]
 
 ## MiniServ 1.890 (Webmin httpd) vulnerability 
 
@@ -54,7 +54,7 @@ In real life we would perform a **"footprinting"** phase of the engagement at th
 >1. How many of the first 15000 ports are open on the target?
 >`4`
 >2. What OS does Nmap think is running?
->****
+>`Centos`
 >3. Open the IP in your browser -- what site does the server try to redirect you to?
 >https://thomaswreath.thm
 >4. Read through the text on the page. What is Thomas' mobile phone number?
