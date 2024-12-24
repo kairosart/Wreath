@@ -10,5 +10,20 @@ _**Note:** This is an example diagram and is not representative of the Wreath N
 
 This section will contain a lot of theory for pivoting from both Linux and Windows compromised targets, which we will then put into practice against the next machine in the network. Remember though: you have a sandbox environment available to you with the compromised machine in the Wreath network. After the enumeration tasks coming up, you'll also know about the next machine in the network. Feel free to use these boxes to play around with the tools as you go through the tasks, but be aware that some techniques may be stopped by the firewalls involved (which we will look at mitigating later in the network).
 
+
+---
+
+## Summary of the targets and the steps to pivot through the network
+
+![[What is Pivoting?-20241224140208206.webp]]
+<center>https://benheater.com/how-i-pivoted-through-tryhackmes-wreath-network/</center>
+
+
+
+
+
+
+
+
 **Next step: ** [[High-level Overview]]
 
