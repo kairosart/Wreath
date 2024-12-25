@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEBSERVER/Enumeration.md",
+                "file": "PIVOTING/Socat.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeration"
+              "title": "Socat"
             }
           },
           {
@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,10 +198,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GIT SERVER/Exploitation.md"
+                "file": "PIVOTING/Socat.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Exploitation"
+              "title": "Outline of Socat"
             }
           },
           {
@@ -346,19 +346,19 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "51d9747e0c96ffce",
+  "active": "0ac2b46965dca870",
   "lastOpenFiles": [
+    "WEBSERVER/Enumeration.md",
+    "GIT SERVER/Exploitation.md",
     "PIVOTING/What is Pivoting?.md",
     "images/Enumeration-20241223144512758.webp",
     "WEBSERVER/Exploitation.md",
-    "GIT SERVER/Exploitation.md",
     "GIT SERVER/Pivoting.md",
     "images/Exploitation-20241224144002376.webp",
     "PIVOTING/sshuttle.md",
     "GIT SERVER/Code review.md",
     "INTRO/Brief.md",
     "images/What is Pivoting?-20241224140208206.webp",
-    "WEBSERVER/Enumeration.md",
     "INTRO/Backstory.md",
     "INTRO/Accessing the Network.md",
     "README.md",
