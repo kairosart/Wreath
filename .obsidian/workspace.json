@@ -81,9 +81,24 @@
               "icon": "lucide-file",
               "title": "Exploitation"
             }
+          },
+          {
+            "id": "4935766fd808bd0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GIT SERVER/Stabilisation & Post Exploitation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stabilisation & Post Exploitation"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -183,10 +198,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GIT SERVER/Exploitation.md"
+                "file": "GIT SERVER/Stabilisation & Post Exploitation.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Exploitation"
+              "title": "Outline of Stabilisation & Post Exploitation"
             }
           },
           {
@@ -331,20 +346,26 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "51d9747e0c96ffce",
+  "active": "4935766fd808bd0c",
   "lastOpenFiles": [
-    "Exploitation-20241227145225967.webp",
-    "Exploitation-20241227145127952.webp",
-    "WEBSERVER/Exploitation.md",
-    "PIVOTING/sshuttle.md",
     "GIT SERVER/Exploitation.md",
+    "WEBSERVER/Exploitation.md",
+    "Diagram.svg",
+    "GIT SERVER/Pivoting.md",
+    "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "Diagram.svg.xml",
+    "PIVOTING/sshuttle.md",
+    "PIVOTING/What is Pivoting?.md",
+    "images/Exploitation-20241227145127952.webp",
+    "images/Exploitation-20241228143653085.webp",
+    "images/Exploitation-20241228144456255.webp",
+    "images/Exploitation-20241228144252431.webp",
+    "images/Exploitation-20241227145225967.webp",
     "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
     "PIVOTING/Socat.md",
     "GIT SERVER/Code review.md",
-    "GIT SERVER/Pivoting.md",
     "GIT SERVER/Enumeration.md",
     "WEBSERVER/Enumeration.md",
-    "PIVOTING/What is Pivoting?.md",
     "images/Enumeration-20241223144512758.webp",
     "images/Exploitation-20241224144002376.webp",
     "INTRO/Brief.md",
@@ -353,11 +374,6 @@
     "INTRO/Accessing the Network.md",
     "README.md",
     "images/Exploitation-20241222140336390.webp",
-    "images/Exploitation-20241222152545435.webp",
-    "images/Exploitation-20241222152701712.webp",
-    "images/Exploitation-20241222145746536.webp",
-    "images/Exploitation-20241222145720411.webp",
-    "images/Enumeration-20241214142632468.webp",
     "PIVOTING/Conclusion.md",
     "1.md",
     "Index.md",
@@ -373,11 +389,9 @@
     "images",
     "index.md",
     "NTLM RELAY/Task 47 - Why not just turn it off?.md",
-    "NTLM RELAY/Task 46 - Now you see me, now you don't.md",
     "NTLM RELAY",
     "PERSISTENCE",
     "SITUATIONAL AWARENESS",
-    "AV EVASION",
-    "docs/lib/metadata.json"
+    "AV EVASION"
   ]
 }

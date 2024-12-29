@@ -160,6 +160,12 @@
         }
       ],
       "title": "ACCESSING DIRECTLY"
+    },
+    {
+      "type": "file",
+      "ctime": 1735503224009,
+      "path": "GIT SERVER/Exploitation.md",
+      "title": "Gitserv Explotation"
     }
   ]
 }

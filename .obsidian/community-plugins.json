@@ -1,7 +1,6 @@
 [
   "editing-toolbar",
   "obsidian-charts",
-  "obsidian-diagrams-net",
   "obsidian-image-toolkit",
   "obsidian-plantuml",
   "obsidian-pandoc",
@@ -12,5 +11,6 @@
   "obsidian-enhancing-export",
   "webpage-html-export",
   "oz-clear-unused-images",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-diagrams-net"
 ]
