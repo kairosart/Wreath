@@ -86,19 +86,16 @@
             "id": "4935766fd808bd0c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "GIT SERVER/Stabilisation & Post Exploitation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "images/Stabilisation & Post Exploitation-20241231140400161.webp"
               },
-              "icon": "lucide-file",
-              "title": "Stabilisation & Post Exploitation"
+              "icon": "lucide-image",
+              "title": "Stabilisation & Post Exploitation-20241231140400161"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -198,10 +195,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GIT SERVER/Stabilisation & Post Exploitation.md"
+                "file": "GIT SERVER/Exploitation.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Stabilisation & Post Exploitation"
+              "title": "Outline of Exploitation"
             }
           },
           {
@@ -346,34 +343,34 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "4935766fd808bd0c",
+  "active": "51d9747e0c96ffce",
   "lastOpenFiles": [
-    "GIT SERVER/Exploitation.md",
     "WEBSERVER/Exploitation.md",
-    "Diagram.svg",
-    "GIT SERVER/Pivoting.md",
-    "GIT SERVER/Stabilisation & Post Exploitation.md",
-    "Diagram.svg.xml",
-    "PIVOTING/sshuttle.md",
     "PIVOTING/What is Pivoting?.md",
-    "images/Exploitation-20241227145127952.webp",
-    "images/Exploitation-20241228143653085.webp",
-    "images/Exploitation-20241228144456255.webp",
-    "images/Exploitation-20241228144252431.webp",
-    "images/Exploitation-20241227145225967.webp",
+    "GIT SERVER/Exploitation.md",
+    "images/Stabilisation & Post Exploitation-20241231140400161.webp",
+    "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "images/Stabilisation & Post Exploitation-20241231153357574.webp",
+    "images/Stabilisation & Post Exploitation-20241231153151199.webp",
+    "images/Stabilisation & Post Exploitation-20241231152948965.webp",
+    "images/Stabilisation & Post Exploitation-20241231152253633.webp",
+    "images/Stabilisation & Post Exploitation-20241231151549863.webp",
+    "images/Stabilisation & Post Exploitation-20241231145841448.webp",
+    "images/Stabilisation & Post Exploitation-20241231145054688.webp",
+    "images/Stabilisation & Post Exploitation-20241231145000608.webp",
+    "images/Stabilisation & Post Exploitation-20241231144813487.webp",
+    "PIVOTING/sshuttle.md",
+    "GIT SERVER/Pivoting.md",
+    "Diagram.svg.xml",
     "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
     "PIVOTING/Socat.md",
     "GIT SERVER/Code review.md",
     "GIT SERVER/Enumeration.md",
     "WEBSERVER/Enumeration.md",
-    "images/Enumeration-20241223144512758.webp",
-    "images/Exploitation-20241224144002376.webp",
     "INTRO/Brief.md",
-    "images/What is Pivoting?-20241224140208206.webp",
     "INTRO/Backstory.md",
     "INTRO/Accessing the Network.md",
     "README.md",
-    "images/Exploitation-20241222140336390.webp",
     "PIVOTING/Conclusion.md",
     "1.md",
     "Index.md",
