@@ -53,49 +53,37 @@
             }
           },
           {
-            "id": "4935766fd808bd0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GIT SERVER/Stabilisation & Post Exploitation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stabilisation & Post Exploitation"
-            }
-          },
-          {
-            "id": "ceeab3f4e7d1714c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Empire - Installation-20250101142029621.webp"
-              },
-              "icon": "lucide-image",
-              "title": "Empire - Installation-20250101142029621"
-            }
-          },
-          {
             "id": "8a18c1f596553959",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Empire - Listeners.md",
+                "file": "COMMAND AND CONTROL/Empire - Agents.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Empire - Listeners"
+              "title": "Empire - Agents"
+            }
+          },
+          {
+            "id": "d2d54a1eebdaabba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMMAND AND CONTROL/Empire - Hop Listeners.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Empire - Hop Listeners"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -195,10 +183,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMMAND AND CONTROL/Empire - Listeners.md"
+                "file": "COMMAND AND CONTROL/Empire - Hop Listeners.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Empire - Listeners"
+              "title": "Outline of Empire - Hop Listeners"
             }
           },
           {
@@ -343,28 +331,30 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "8a18c1f596553959",
+  "active": "d2d54a1eebdaabba",
   "lastOpenFiles": [
-    "images/Stabilisation & Post Exploitation-20250101134216192.webp",
-    "images/Empire - Installation-20250101142029621.webp",
-    "Diagram.svg",
+    "images/Empire - Agents-20250102141019302.webp",
+    "COMMAND AND CONTROL/Empire - Hop Listeners.md",
+    "COMMAND AND CONTROL/Empire - Agents.md",
+    "COMMAND AND CONTROL/Empire - Stagers.md",
+    "images/Empire - Agents-20250102142046438.webp",
+    "images/Empire - Agents-20250102141956913.webp",
+    "images/Empire - Agents-20250102141906423.webp",
     "COMMAND AND CONTROL/Empire - Listeners.md",
     "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "images/Empire - Agents-20250102141538161.webp",
+    "images/Empire - Agents-20250102141428143.webp",
+    "images/Empire - Agents-20250102141340137.webp",
+    "images/Empire - Agents-20250102141300828.webp",
+    "images/Empire - Agents-20250102141146930.webp",
+    "images/Empire - Stagers-20250102134954941.webp",
     "COMMAND AND CONTROL/Empire - Installation.md",
-    "COMMAND AND CONTROL/Empire - Overview.md",
-    "images/Empire - Installation-20250101142527436.webp",
-    "images/Empire - Installation-20250101142448622.webp",
-    "images/Empire - Installation-20250101142337561.webp",
     "COMMAND AND CONTROL/Introduction.md",
+    "COMMAND AND CONTROL/Empire - Overview.md",
     "COMMAND AND CONTROL",
     "GIT SERVER/Exploitation.md",
-    "images/Stabilisation & Post Exploitation-20250101135528592.webp",
-    "images/Stabilisation & Post Exploitation-20241231140400161.webp",
     "WEBSERVER/Exploitation.md",
     "PIVOTING/What is Pivoting?.md",
-    "images/Stabilisation & Post Exploitation-20241231153357574.webp",
-    "images/Stabilisation & Post Exploitation-20241231153151199.webp",
-    "images/Stabilisation & Post Exploitation-20241231152948965.webp",
     "PIVOTING/sshuttle.md",
     "GIT SERVER/Pivoting.md",
     "Diagram.svg.xml",
@@ -381,9 +371,6 @@
     "1.md",
     "Index.md",
     "GIT SERVER",
-    "PIVOTING/plink.exe.md",
-    "PIVOTING/Chisel.md",
-    "PIVOTING/High-level Overview.md",
     "PIVOTING",
     "WEBSERVER",
     "INTRO",
