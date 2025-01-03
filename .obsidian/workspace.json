@@ -58,32 +58,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Empire - Agents.md",
+                "file": "COMMAND AND CONTROL/Empire - Installation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Empire - Agents"
+              "title": "Empire - Installation"
             }
           },
           {
-            "id": "d2d54a1eebdaabba",
+            "id": "cffa48e59cdb94ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Empire - Hop Listeners.md",
+                "file": "COMMAND AND CONTROL/Git Server.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Empire - Hop Listeners"
+              "title": "Git Server"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,10 +183,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMMAND AND CONTROL/Empire - Hop Listeners.md"
+                "file": "GIT SERVER/Exploitation.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Empire - Hop Listeners"
+              "title": "Outline of Exploitation"
             }
           },
           {
@@ -331,30 +331,31 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d2d54a1eebdaabba",
+  "active": "51d9747e0c96ffce",
   "lastOpenFiles": [
-    "images/Empire - Agents-20250102141019302.webp",
-    "COMMAND AND CONTROL/Empire - Hop Listeners.md",
-    "COMMAND AND CONTROL/Empire - Agents.md",
-    "COMMAND AND CONTROL/Empire - Stagers.md",
-    "images/Empire - Agents-20250102142046438.webp",
-    "images/Empire - Agents-20250102141956913.webp",
-    "images/Empire - Agents-20250102141906423.webp",
-    "COMMAND AND CONTROL/Empire - Listeners.md",
-    "GIT SERVER/Stabilisation & Post Exploitation.md",
-    "images/Empire - Agents-20250102141538161.webp",
-    "images/Empire - Agents-20250102141428143.webp",
-    "images/Empire - Agents-20250102141340137.webp",
-    "images/Empire - Agents-20250102141300828.webp",
-    "images/Empire - Agents-20250102141146930.webp",
-    "images/Empire - Stagers-20250102134954941.webp",
-    "COMMAND AND CONTROL/Empire - Installation.md",
-    "COMMAND AND CONTROL/Introduction.md",
-    "COMMAND AND CONTROL/Empire - Overview.md",
-    "COMMAND AND CONTROL",
+    "COMMAND AND CONTROL/Git Server.md",
     "GIT SERVER/Exploitation.md",
     "WEBSERVER/Exploitation.md",
+    "Git Server-20250103142653235.webp",
+    "COMMAND AND CONTROL/Empire - Hop Listeners.md",
+    "Git Server-20250103142317960.webp",
+    "Git Server-20250103141930263.webp",
+    "Git Server-20250103141203892.webp",
+    "Git Server-20250103140929490.webp",
+    "Git Server-20250103140856420.webp",
+    "Git Server-20250103140607340.webp",
+    "Git Server-20250103140519820.webp",
+    "COMMAND AND CONTROL/Empire - Listeners.md",
+    "COMMAND AND CONTROL/Empire - Installation.md",
+    "Empire - Hop Listeners-20250103135419445.webp",
+    "Empire - Hop Listeners-20250103135345279.webp",
+    "COMMAND AND CONTROL/Empire - Agents.md",
+    "COMMAND AND CONTROL/Empire - Overview.md",
     "PIVOTING/What is Pivoting?.md",
+    "COMMAND AND CONTROL/Empire - Stagers.md",
+    "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "COMMAND AND CONTROL/Introduction.md",
+    "COMMAND AND CONTROL",
     "PIVOTING/sshuttle.md",
     "GIT SERVER/Pivoting.md",
     "Diagram.svg.xml",
@@ -369,7 +370,6 @@
     "README.md",
     "PIVOTING/Conclusion.md",
     "1.md",
-    "Index.md",
     "GIT SERVER",
     "PIVOTING",
     "WEBSERVER",

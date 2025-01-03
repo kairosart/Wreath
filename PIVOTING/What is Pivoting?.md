@@ -15,8 +15,7 @@ This section will contain a lot of theory for pivoting from both Linux and Windo
 
 ## Summary of the targets and the steps to pivot through the network
 
-![[What is Pivoting?-20241224140208206.webp]]
-<center>https://benheater.com/how-i-pivoted-through-tryhackmes-wreath-network/</center>
+![[Diagram.svg]]
 
 
 
