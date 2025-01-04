@@ -21,15 +21,23 @@ This is entirely overkill for our uses here -- instead we will just run both the
 
 ---
 
+## Empire client
+
 With the server started, let's get the Empire CLI Client working. You are welcome to skip this if you would prefer to work exclusively in Starkiller.
 
 Starting the Empire CLI Client is as easy as:
+
+```
+$ powershell-empire client
+```
+
 
 ![[Empire - Installation-20250101142337561.webp]]
 
 With the server instance hosted locally this should connect automatically by default. If the Empire server was on a different machine then you would need to either change the connection information in the `/usr/share/powershell-empire/empire/client/config.yaml` file, or connect manually from the Empire CLI Client using `connect HOSTNAME --username=USERNAME --password=PASSWORD`.
 
 ---
+## Starkiller
 
 Starkiller is an Electron app which works by connecting to the REST API exposed by the Empire server
 

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEBSERVER/Exploitation.md",
+                "file": "COMMAND AND CONTROL/Git Server.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exploitation"
+              "title": "Git Server"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIVOTING/What is Pivoting?.md",
+                "file": "GIT SERVER/Stabilisation & Post Exploitation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is Pivoting?"
+              "title": "Stabilisation & Post Exploitation"
             }
           },
           {
@@ -73,17 +73,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMMAND AND CONTROL/Git Server.md",
+                "file": "COMMAND AND CONTROL/Empire - Agents.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git Server"
+              "title": "Empire - Agents"
+            }
+          },
+          {
+            "id": "d4da696de5fe46b5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Command & Control Empire Diagram.svg"
+              },
+              "icon": "lucide-image",
+              "title": "Command & Control Empire Diagram"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -183,10 +195,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GIT SERVER/Exploitation.md"
+                "file": "Command & Control Empire Diagram.svg"
               },
               "icon": "lucide-list",
-              "title": "Outline of Exploitation"
+              "title": "Outline of Command & Control Empire Diagram"
             }
           },
           {
@@ -331,30 +343,32 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "51d9747e0c96ffce",
+  "active": "6c994e66ece44a7b",
   "lastOpenFiles": [
-    "COMMAND AND CONTROL/Git Server.md",
-    "GIT SERVER/Exploitation.md",
-    "WEBSERVER/Exploitation.md",
-    "Git Server-20250103142653235.webp",
-    "COMMAND AND CONTROL/Empire - Hop Listeners.md",
-    "Git Server-20250103142317960.webp",
-    "Git Server-20250103141930263.webp",
-    "Git Server-20250103141203892.webp",
-    "Git Server-20250103140929490.webp",
-    "Git Server-20250103140856420.webp",
-    "Git Server-20250103140607340.webp",
-    "Git Server-20250103140519820.webp",
-    "COMMAND AND CONTROL/Empire - Listeners.md",
-    "COMMAND AND CONTROL/Empire - Installation.md",
-    "Empire - Hop Listeners-20250103135419445.webp",
-    "Empire - Hop Listeners-20250103135345279.webp",
+    "images/Empire - Hop Listeners-20250103131713292.webp",
     "COMMAND AND CONTROL/Empire - Agents.md",
-    "COMMAND AND CONTROL/Empire - Overview.md",
-    "PIVOTING/What is Pivoting?.md",
+    "Command & Control Empire Diagram.svg.xml",
+    "Command & Control Empire Diagram.svg",
     "COMMAND AND CONTROL/Empire - Stagers.md",
+    "COMMAND AND CONTROL/Empire - Listeners.md",
+    "COMMAND AND CONTROL/Empire - Overview.md",
+    "COMMAND AND CONTROL/Empire - Installation.md",
+    "COMMAND AND CONTROL/Git Server.md",
     "GIT SERVER/Stabilisation & Post Exploitation.md",
     "COMMAND AND CONTROL/Introduction.md",
+    "PIVOTING/What is Pivoting?.md",
+    "WEBSERVER/Exploitation.md",
+    "GIT SERVER/Exploitation.md",
+    "images/Git Server-20250103142653235.webp",
+    "COMMAND AND CONTROL/Empire - Hop Listeners.md",
+    "images/Git Server-20250103142317960.webp",
+    "images/Git Server-20250103141930263.webp",
+    "images/Git Server-20250103141203892.webp",
+    "images/Git Server-20250103140929490.webp",
+    "images/Git Server-20250103140856420.webp",
+    "images/Git Server-20250103140607340.webp",
+    "images/Git Server-20250103140519820.webp",
+    "images/Empire - Hop Listeners-20250103135419445.webp",
     "COMMAND AND CONTROL",
     "PIVOTING/sshuttle.md",
     "GIT SERVER/Pivoting.md",
@@ -376,7 +390,6 @@
     "INTRO",
     "images",
     "NTLM RELAY",
-    "PERSISTENCE",
-    "SITUATIONAL AWARENESS"
+    "PERSISTENCE"
   ]
 }

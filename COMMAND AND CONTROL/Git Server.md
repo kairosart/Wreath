@@ -14,9 +14,15 @@ Let's start with generating a stager. For this we will use the `multi/launcher`
 
 ## Empire client
 
+Start Empire Client:
+
+```
+$ powershell-empire client
+```
+
+
 ![[Git Server-20250103140519820.webp]]
 
-Execute.
 ## Starkiller
 
 ![[Git Server-20250103140607340.webp]]
