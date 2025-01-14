@@ -2,7 +2,7 @@
 > If you are using the AttackBox then you are advised to skip to Task 32. The way that Empire is installed in the AttackBox is not representative of the recommended method -- a necessary design choice which was made to accommodate other software running on the machine. If you are comfortable working with Docker (and changing the instructions in the following tasks to accommodate accordingly) then feel free to read on. Otherwise please skip to the next section.
 
 
----
+## From [[GIT SERVER/Exploitation#Your job|sshuttle]] pivoting
 
 So, we have a stable shell. What now?
 

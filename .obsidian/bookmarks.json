@@ -172,6 +172,13 @@
       "ctime": 1735758586128,
       "path": "GIT SERVER/Exploitation.md",
       "subpath": "#Powershell/Reverse Shell"
+    },
+    {
+      "type": "file",
+      "ctime": 1736187822365,
+      "path": "GIT SERVER/Exploitation.md",
+      "subpath": "#Your job",
+      "title": "sshuttle"
     }
   ]
 }

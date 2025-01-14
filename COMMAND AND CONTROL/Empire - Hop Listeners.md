@@ -61,5 +61,5 @@ If you also have a Hop Listener set up using the Empire CLI then you should al
 
 Click "Submit", and the listener starts!
 
-**Next stet: ** [[Git Server]]
+**Next stet: ** [[Introduction]]
 
