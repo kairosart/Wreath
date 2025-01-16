@@ -20,7 +20,7 @@ As previously, we can use `options` to get information about the module after 
 
 This module requires one option to be set: the `Agent` value. This is already set for us here; however, if it was incorrect or there was no option set already then we could set it using the command: `set Agent AGENT_NAME`, (the same syntax as in previous parts of the framework).  
 
-We start the module using the usual `execute` command. The module will then run as a background job, returning the results when it completes.
+We start the module using the usual `execute` command. The module will then run as a **background job, returning the results when it completes**.
 
 ![[Empire - Modules-20250115141730450.webp]]
 

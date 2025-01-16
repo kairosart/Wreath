@@ -6,7 +6,7 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
-        "dimension": 45.31346989447548,
+        "dimension": 38.7957790192427,
         "children": [
           {
             "id": "1fcbac130ecd92f3",
@@ -51,12 +51,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "8d8f111a0e2619e8",
         "type": "tabs",
-        "dimension": 54.686530105524525,
+        "dimension": 61.2042209807573,
         "children": [
           {
             "id": "7ad5288b1b4f5f0d",
@@ -185,10 +185,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Empire - Modules-20250115142015679.webp"
+                "file": "COMMAND AND CONTROL/Git Server.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Empire - Modules-20250115142015679"
+              "title": "Outline of Git Server"
             }
           },
           {
@@ -394,12 +394,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "51d9747e0c96ffce",
+  "active": "7ad5288b1b4f5f0d",
   "lastOpenFiles": [
-    "0c3983925940fafca5e7f4f56c07d7be.gif",
-    "images/Empire - Modules-20250115142015679.webp",
     "COMMAND AND CONTROL/Empire - Modules.md",
+    "Command & Control Empire Diagram.svg",
     "COMMAND AND CONTROL/Git Server.md",
+    "COMMAND AND CONTROL/Empire - Overview.md",
+    "images/Empire - Modules-20250115142015679.webp",
+    "0c3983925940fafca5e7f4f56c07d7be.gif",
     "images/Empire - Modules-20250115141626143.webp",
     "GIT SERVER/Exploitation.md",
     "images/Empire - Modules-20250115142257647.webp",
@@ -408,11 +410,9 @@
     "images/Empire - Modules-20250115142058801.webp",
     "images/Empire - Modules-20250115141921142.webp",
     "images/Empire - Modules-20250115141818665.webp",
-    "images/Empire - Modules-20250115141730450.webp",
     "COMMAND AND CONTROL/Introduction.md",
     "COMMAND AND CONTROL/Empire - Installation.md",
     "COMMAND AND CONTROL/Empire - Listeners.md",
-    "COMMAND AND CONTROL/Empire - Overview.md",
     "COMMAND AND CONTROL/Empire - Hop Listeners.md",
     "COMMAND AND CONTROL/Empire - Agents.md",
     "COMMAND AND CONTROL/Empire - Stagers.md",
