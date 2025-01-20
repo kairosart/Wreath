@@ -85,8 +85,8 @@ We now have everything we need to get this show on the road!
 
 # Your job
 
-![[Command & Control Empire Diagram.svg]]
 
+![[Command & Control Empire Diagram.svg]]
 
 
 The way this system works is:
