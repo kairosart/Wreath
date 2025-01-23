@@ -63,4 +63,4 @@ This will allow sshuttle to create a connection without disrupting itself.
 >3. You are trying to use sshuttle to connect to 172.16.0.100.  You want to forward the 172.16.0.x/24 range of IP addreses, but you are getting a Broken Pipe error. What switch (and argument) could you use to fix this error?
 >`-x 172.16.0.100`
 
-**Next step:** [[Conclusion]]
+**Next step:** [[PIVOTING/Conclusion]]

@@ -81,5 +81,5 @@ There are the following valid IPs:
 
 Now that we have an idea about the other hosts on the network, we can start looking at some of the tools and techniques we could use to access them!
 
-**Next step:** [[Pivoting]]
+**Next step:** [[GIT SERVER/Pivoting]]
 

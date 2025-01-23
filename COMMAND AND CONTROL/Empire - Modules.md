@@ -62,3 +62,4 @@ Clicking on the dropdown arrow to the left of the task gives the task results:
 
 ![[Empire - Modules-20250115142257647.webp]]
 
+**Next step: ** [[Empire - Interactive Shell]]
