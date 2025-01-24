@@ -49,13 +49,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEBSERVER/Exploitation.md",
+                "file": "PIVOTING/Chisel.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exploitation"
+              "title": "Chisel"
             }
           }
         ]
@@ -400,11 +400,12 @@
   },
   "active": "d8b005ef2218ef0c",
   "lastOpenFiles": [
+    "PIVOTING/Chisel.md",
+    "PERSONAL PC/Pivoting.md",
+    "WEBSERVER/Exploitation.md",
     "images/Empire - Interactive Shell-20250123205005577.webp",
     "GIT SERVER/Exploitation.md",
-    "PERSONAL PC/Pivoting.md",
     "PERSONAL PC/Enumeration.md",
-    "WEBSERVER/Exploitation.md",
     "COMMAND AND CONTROL/Empire - Modules.md",
     "images/Enumeration-20250123212128194.webp",
     "images/Enumeration-20250123210355909.webp",
