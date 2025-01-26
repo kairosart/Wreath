@@ -34,9 +34,24 @@
               "icon": "lucide-file",
               "title": "Pivoting"
             }
+          },
+          {
+            "id": "6ca5975cbf45cef0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERSONAL PC/The Wonders of Git.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Wonders of Git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "8d8f111a0e2619e8",
@@ -170,10 +185,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PERSONAL PC/Pivoting.md"
+                "file": "PERSONAL PC/The Wonders of Git.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Pivoting"
+              "title": "Outline of The Wonders of Git"
             }
           },
           {
@@ -398,10 +413,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d8b005ef2218ef0c",
+  "active": "6ca5975cbf45cef0",
   "lastOpenFiles": [
     "PIVOTING/Chisel.md",
+    "PERSONAL PC/The Wonders of Git.md",
     "PERSONAL PC/Pivoting.md",
+    "Pivoting-20250126191308575.webp",
+    "Pivoting-20250126190906256.webp",
+    "Pivoting-20250126190740769.webp",
     "WEBSERVER/Exploitation.md",
     "images/Empire - Interactive Shell-20250123205005577.webp",
     "GIT SERVER/Exploitation.md",
@@ -423,11 +442,8 @@
     "COMMAND AND CONTROL/Empire - Stagers.md",
     "COMMAND AND CONTROL/Empire - Installation.md",
     "images/Git Server-20250117142229904.webp",
-    "images/Git Server-20250117141809885.webp",
     "COMMAND AND CONTROL/Empire - Agents.md",
     "PIVOTING/What is Pivoting?.md",
-    "Command & Control Empire Diagram.svg",
-    "0c3983925940fafca5e7f4f56c07d7be.gif",
     "GIT SERVER/Code review.md",
     "GIT SERVER/Stabilisation & Post Exploitation.md",
     "GIT SERVER/Pivoting.md",
@@ -438,7 +454,6 @@
     "COMMAND AND CONTROL",
     "PIVOTING/sshuttle.md",
     "Diagram.svg.xml",
-    "PIVOTING/Socat.md",
     "GIT SERVER",
     "PIVOTING",
     "WEBSERVER",

