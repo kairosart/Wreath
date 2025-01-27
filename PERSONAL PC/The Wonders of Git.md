@@ -47,4 +47,89 @@ The GitTools repository contains three tools:
 
 - **Extractor** can be used to take a local `.git` directory and recreate the repository in a readable format. This is designed to work in conjunction with the Dumper, but will also work on the repo that we stole from the Git server. Unfortunately for us, whilst Extractor _will_ give us each commit in a readable format, it will not sort the commits by date  .
 
-- **Finder** can be used to search the internet for sites with exposed `.git` directories. This is significantly less useful to an ethical hacker, although may have applications in bug bounty programmes
+- **Finder** can be used to search the internet for sites with exposed `.git` directories. This is significantly less useful to an ethical hacker, although may have applications in bug bounty programmes.
+
+Let's use Extractor to obtain a readable format of the repository!
+
+The syntax for Extractor is as follows:  
+`./extractor.sh REPO_DIR DESTINATION_DIR`
+
+This is slightly confusing, so explaining each option:
+
+- The `REPO_DIR` is the directory _containing_ the `.git` directory for the repository. Note that this is not the `.git` directory itself. Extractor looks for a `.git` directory _inside_ the specified directory (which is why we had to change the original name of the directory to ".git")
+- The `DESTINATION_DIR` is the subdirectory into which the repository will be created  
+    
+
+For example, if we cloned the GitTools repo into the same directory as the `.git` directory we downloaded from the Git Server, we can extract the contents of the stolen repository into a subdirectory called "Website" using:  
+`GitTools/Extractor/extractor.sh . Website`
+
+This uses the current directory "`.`" (as the parent of the `.git` directory) and extracts into a newly created `Website` subdirectory.
+
+![[The Wonders of Git-20250127205839042.webp]]
+
+Recreate the repository -- we will perform some code analysis in the next task!
+
+Let's head into the newly recreated repository. We see three directories:
+
+![[The Wonders of Git-20250127211026657.webp]]
+
+Each of these corresponds to a commit; however, as mentioned previously, these are not sorted by date...
+
+It's up to us to piece together the order of the commits. Fortunately there are only three commits in this repository, and each commit comes with a `commit-meta.txt` file which we can use to get an idea of the order.
+
+We could just cat each of these files out separately, but we may as well do it the fancy way with a bash one-liner:  
+`separator="======================================="; for i in $(ls); do printf "\n\n$separator\n\033[4;1m$i\033[0m\n$(cat $i/commit-meta.txt)\n"; done; printf "\n\n$separator\n\n\n"`  
+
+This gives us the three `commit-meta.txt` files in a nicely formatted order:
+
+![[The Wonders of Git-20250127211158745.webp]]
+
+
+Here we can see three commit messages: `Updated the filter`, `Initial Commit for the back-end`, and `Static Website Commit`.
+
+> [!Note]
+>The number at the start of these directories is arbitrary, and depends on the order in which GitTools extracts the directories. What matters is the hash at the end of the filename.
+
+Logically speaking, we can guess that these are currently in reverse order based on the commit message; however, we could also check the parent value of each commit. Starting at the only commit without a parent (which must be the initial commit), we can work down the tree in stages like so:
+
+![[The Wonders of Git-20250127211731123.webp]]
+
+We find the commit that has no parent (`70dde80cc19ec76704567996738894828f4ee895`), and check to see which of the other commits specifies it as a direct parent (`82dfc97bec0d7582d485d9031c09abcb5c6b18f2`). We then repeat the process to find the full commit order:
+
+1. 70dde80cc19ec76704567996738894828f4ee895
+2. 82dfc97bec0d7582d485d9031c09abcb5c6b18f2
+3. 345ac8b236064b431fa43f53d91c98c4834ef8f3
+
+We _could_ also do this by checking the timestamps attached to the commits (in UNIX format, after the emails); however, it is possible to fake these. Feel free to use them, but be aware that they may not always be accurate.
+
+If that didn't make sense, don't worry!
+
+The short version is: the most up to date version of the site stored in the Git repository is in the `NUMBER-345ac8b236064b431fa43f53d91c98c4834ef8f3` directory.
+
+---
+
+# Your job
+
+1. **Move file to Website.git** File was downloaded as `Website.git'` and needs to be `.git`. #Attacking_Machine 
+```
+mv Website.git .git  
+```
+
+2. **Use extractor within** `Website.git`.
+```
+GitTools/Extractor/extractor.sh . Website
+```
+
+ ![[The Wonders of Git-20250127210837253.webp]]
+ 
+3. See the commits.
+```
+cd Website
+
+separator="======================================="; for i in $(ls); do printf "\n\n$separator\n\033[4;1m$i\033[0m\n$(cat $i/commit-meta.txt)\n"; done; printf "\n\n$separator\n\n\n"
+```
+
+![[The Wonders of Git-20250127211555229.webp]]
+
+**Next step: ** [[Website Code Analysis]]
+

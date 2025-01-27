@@ -26,17 +26,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PERSONAL PC/Pivoting.md",
+                "file": "PERSONAL PC/Website Code Analysis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pivoting"
+              "title": "Website Code Analysis"
             }
           },
           {
-            "id": "6ca5975cbf45cef0",
+            "id": "0def4205032b6573",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "8d8f111a0e2619e8",
@@ -185,10 +185,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PERSONAL PC/The Wonders of Git.md"
+                "file": "PERSONAL PC/Website Code Analysis.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of The Wonders of Git"
+              "title": "Outline of Website Code Analysis"
             }
           },
           {
@@ -413,35 +413,36 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6ca5975cbf45cef0",
+  "active": "d8b005ef2218ef0c",
   "lastOpenFiles": [
-    "PIVOTING/Chisel.md",
-    "PERSONAL PC/The Wonders of Git.md",
     "PERSONAL PC/Pivoting.md",
+    "PERSONAL PC/The Wonders of Git.md",
+    "PERSONAL PC/Website Code Analysis.md",
+    "images/Empire - Interactive Shell-20250123205005577.webp",
+    "The Wonders of Git-20250127211731123.webp",
+    "PIVOTING/Chisel.md",
+    "The Wonders of Git-20250127211555229.webp",
+    "The Wonders of Git-20250127211158745.webp",
+    "The Wonders of Git-20250127211141004.webp",
+    "The Wonders of Git-20250127211026657.webp",
+    "The Wonders of Git-20250127210837253.webp",
+    "The Wonders of Git-20250127205839042.webp",
     "Pivoting-20250126191308575.webp",
     "Pivoting-20250126190906256.webp",
-    "Pivoting-20250126190740769.webp",
     "WEBSERVER/Exploitation.md",
-    "images/Empire - Interactive Shell-20250123205005577.webp",
     "GIT SERVER/Exploitation.md",
     "PERSONAL PC/Enumeration.md",
     "COMMAND AND CONTROL/Empire - Modules.md",
-    "images/Enumeration-20250123212128194.webp",
-    "images/Enumeration-20250123210355909.webp",
-    "images/Enumeration-20250123210128228.webp",
     "COMMAND AND CONTROL/Empire - Interactive Shell.md",
     "COMMAND AND CONTROL/Conclusion.md",
     "COMMAND AND CONTROL/Empire - Overview.md",
     "PERSONAL PC",
     "COMMAND AND CONTROL/Introduction.md",
     "COMMAND AND CONTROL/Git Server.md",
-    "images/Empire - Modules-20250115142015679.webp",
-    "images/Empire - Interactive Shell-20250123205124652.webp",
     "COMMAND AND CONTROL/Empire - Hop Listeners.md",
     "COMMAND AND CONTROL/Empire - Listeners.md",
     "COMMAND AND CONTROL/Empire - Stagers.md",
     "COMMAND AND CONTROL/Empire - Installation.md",
-    "images/Git Server-20250117142229904.webp",
     "COMMAND AND CONTROL/Empire - Agents.md",
     "PIVOTING/What is Pivoting?.md",
     "GIT SERVER/Code review.md",
@@ -450,9 +451,7 @@
     "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
     "PIVOTING/Proxychains & Foxyproxy.md",
     "PIVOTING/Enumeration.md",
-    "PIVOTING/High-level Overview.md",
     "COMMAND AND CONTROL",
-    "PIVOTING/sshuttle.md",
     "Diagram.svg.xml",
     "GIT SERVER",
     "PIVOTING",
