@@ -6,18 +6,21 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
-        "dimension": 60.83178150217257,
+        "dimension": 72.8119180633147,
         "children": [
           {
             "id": "1fcbac130ecd92f3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Empire - Interactive Shell-20250123205005577.webp"
+                "file": "GIT SERVER/Stabilisation & Post Exploitation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Empire - Interactive Shell-20250123205005577"
+              "icon": "lucide-file",
+              "title": "Stabilisation & Post Exploitation"
             }
           },
           {
@@ -41,22 +44,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PERSONAL PC/The Wonders of Git.md",
+                "file": "PERSONAL PC/Pivoting.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Wonders of Git"
+              "title": "Pivoting"
+            }
+          },
+          {
+            "id": "5f167712e6a19db9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERSONAL PC/Exploit PoC.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Exploit PoC"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "8d8f111a0e2619e8",
         "type": "tabs",
-        "dimension": 39.16821849782743,
+        "dimension": 27.188081936685286,
         "children": [
           {
             "id": "7ad5288b1b4f5f0d",
@@ -92,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#-s",
+                "query": "mimikat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,10 +203,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PERSONAL PC/Website Code Analysis.md"
+                "file": "PERSONAL PC/Exploit PoC.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Website Code Analysis"
+              "title": "Outline of Exploit PoC"
             }
           },
           {
@@ -413,26 +431,29 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d8b005ef2218ef0c",
+  "active": "6c994e66ece44a7b",
   "lastOpenFiles": [
+    "images/Website Code Analysis-20250128193015641.webp",
+    "PERSONAL PC/Exploit PoC.md",
+    "Screenshot from 2025-01-28 21-10-09.png",
+    "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "COMMAND AND CONTROL/Empire - Modules.md",
+    "images/Empire - Interactive Shell-20250123205005577.webp",
+    "images/Exploit PoC-20250128210433691.webp",
+    "PIVOTING/Chisel.md",
+    "Command & Control Empire Diagram.svg",
+    "AccesS to PC.svg",
     "PERSONAL PC/Pivoting.md",
+    "AccesS to PC.svg.xml",
     "PERSONAL PC/The Wonders of Git.md",
     "PERSONAL PC/Website Code Analysis.md",
-    "images/Empire - Interactive Shell-20250123205005577.webp",
-    "The Wonders of Git-20250127211731123.webp",
-    "PIVOTING/Chisel.md",
-    "The Wonders of Git-20250127211555229.webp",
-    "The Wonders of Git-20250127211158745.webp",
-    "The Wonders of Git-20250127211141004.webp",
-    "The Wonders of Git-20250127211026657.webp",
-    "The Wonders of Git-20250127210837253.webp",
-    "The Wonders of Git-20250127205839042.webp",
-    "Pivoting-20250126191308575.webp",
-    "Pivoting-20250126190906256.webp",
+    "images/The Wonders of Git-20250127211731123.webp",
+    "images/The Wonders of Git-20250127211555229.webp",
+    "images/The Wonders of Git-20250127211158745.webp",
+    "images/The Wonders of Git-20250127211141004.webp",
     "WEBSERVER/Exploitation.md",
     "GIT SERVER/Exploitation.md",
     "PERSONAL PC/Enumeration.md",
-    "COMMAND AND CONTROL/Empire - Modules.md",
     "COMMAND AND CONTROL/Empire - Interactive Shell.md",
     "COMMAND AND CONTROL/Conclusion.md",
     "COMMAND AND CONTROL/Empire - Overview.md",
@@ -446,11 +467,9 @@
     "COMMAND AND CONTROL/Empire - Agents.md",
     "PIVOTING/What is Pivoting?.md",
     "GIT SERVER/Code review.md",
-    "GIT SERVER/Stabilisation & Post Exploitation.md",
     "GIT SERVER/Pivoting.md",
     "PIVOTING/SSH Tunnelling  - Port Forwarding.md",
     "PIVOTING/Proxychains & Foxyproxy.md",
-    "PIVOTING/Enumeration.md",
     "COMMAND AND CONTROL",
     "Diagram.svg.xml",
     "GIT SERVER",
@@ -458,7 +477,6 @@
     "WEBSERVER",
     "INTRO",
     "images",
-    "NTLM RELAY",
-    "PERSISTENCE"
+    "NTLM RELAY"
   ]
 }

@@ -13,6 +13,11 @@ Please use the `name-USERNAME` naming convention -- for example:
 
 Whether you choose the recommended option or not, get a pivot up and running!
 
+
+![[AccesS to PC.svg]]
+
+---
+
 # Your job
 
 1. For pivoting, we can use chisel. Run evil-winrm . #Attacking_Machine 
