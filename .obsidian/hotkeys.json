@@ -25,5 +25,14 @@
       ],
       "key": "C"
     }
+  ],
+  "image-converter:toggle-plugin": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
   ]
 }
