@@ -44,3 +44,16 @@ That said, dynamic detection methods are usually a lot more effective than stati
 To make life harder still, antivirus vendors are usually in close contact with one another -- as well as with scanning sites such as [VirusTotal](https://www.virustotal.com/). When the AV detects a suspicious file, it usually sends the file back to servers owned by the provider where it gets analysed and shared with other providers. What this means is that once our payload is detected on one computer, the chances are that it will quickly be taken apart and shielded against. This rapid sharing of information allows AV providers to stay ahead of bad actors (a good thing), but also obviously adds an extra complication into our job as Ethical Hackers.
 
 Additionally, new techniques are being developed all the time. For example, many attempts are being made to use machine learning techniques to dynamically update the list of bad behaviours in a sandbox environment, or the rule-lists used in logic-flow analysis of a suspicious file. If you're interested in some of the work being done in this area, TryHackMe's very own [CMNatic](https://cmnatic.co.uk/) did his dissertation on the subject, which can be read [here](https://resources.cmnatic.co.uk/Presentations/Dissertation/).
+
+> [!Question]
+>1. What other name can be used for Dynamic/Heuristic detection methods?  
+>`Behavioural` 
+> 2. If AV software splits a program into small chunks and hashes them, checking the results against a database, is this a static or dynamic analysis method? 
+> `Static`
+>3. When dynamically analysing a suspicious file using a line-by-line analysis of the program, what would antivirus software check against to see if the behaviour is malicious?  
+>`Pre-defined rules`
+>4.  What could be added to a file to ensure that only a user can open it (preventing AV from executing the payload)?
+>`Password`
+
+**Next step: **[[PHP Payload Obfuscation]]
+
