@@ -44,13 +44,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PERSONAL PC/Pivoting.md",
+                "file": "AV EVASION/PHP Payload Obfuscation.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Pivoting"
+              "title": "PHP Payload Obfuscation"
             }
           },
           {
@@ -82,9 +82,24 @@
               "icon": "lucide-file",
               "title": "PHP Payload Obfuscation"
             }
+          },
+          {
+            "id": "2e1195bd1189d114",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AV EVASION/Compiling Netcat & Reverse Shell!.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Compiling Netcat & Reverse Shell!"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "8d8f111a0e2619e8",
@@ -125,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mimikat",
+                "query": "tag:#Attacking_Machine",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AV EVASION/PHP Payload Obfuscation.md",
+                "file": "AV EVASION/Compiling Netcat & Reverse Shell!.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PHP Payload Obfuscation"
+              "title": "Outline of Compiling Netcat & Reverse Shell!"
             }
           },
           {
@@ -450,31 +465,33 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "e9ce23f106a30923",
+  "active": "6c994e66ece44a7b",
   "lastOpenFiles": [
-    "AV EVASION/bb2ef4375625.webp",
-    "AV EVASION/AV Detection Methods.md",
+    "images/ac7e2a438cd5.webp",
     "PIVOTING/Chisel.md",
+    "AV EVASION/Compiling Netcat & Reverse Shell!.md",
+    "images/b29a99fd33fd.webp",
+    "images/d71f7f2fcb0e.webp",
+    "images/499921a44689.webp",
     "AV EVASION/PHP Payload Obfuscation.md",
+    "Index.md",
+    "images/6b09145ae074.webp",
+    "AV EVASION/AV Detection Methods.md",
+    "images/98a8bd99378c.webp",
+    "images/2920fdb4cd18.webp",
     "AV EVASION/Introduction.md",
-    "PERSONAL PC/Pivoting.md",
     "PERSONAL PC/Exploit PoC.md",
+    "PERSONAL PC/Website Code Analysis.md",
+    "PERSONAL PC/The Wonders of Git.md",
+    "PERSONAL PC/Pivoting.md",
+    "images/bb2ef4375625.webp",
     "AV EVASION",
     "images/Exploit PoC-20250130193255187.webp",
     "images/Exploit PoC-20250130193227913.webp",
     "images/Exploit PoC-20250130193118071.webp",
-    "images/Exploit PoC-20250130193041747.webp",
-    "images/Exploit PoC-20250130192745580.webp",
-    "images/Website Code Analysis-20250128193015641.webp",
-    "images/Screenshot from 2025-01-28 21-10-09.png",
     "GIT SERVER/Stabilisation & Post Exploitation.md",
     "COMMAND AND CONTROL/Empire - Modules.md",
-    "images/Empire - Interactive Shell-20250123205005577.webp",
-    "images/Exploit PoC-20250128210433691.webp",
-    "Command & Control Empire Diagram.svg",
     "AccesS to PC.svg.xml",
-    "PERSONAL PC/The Wonders of Git.md",
-    "PERSONAL PC/Website Code Analysis.md",
     "WEBSERVER/Exploitation.md",
     "GIT SERVER/Exploitation.md",
     "PERSONAL PC/Enumeration.md",
@@ -489,8 +506,6 @@
     "COMMAND AND CONTROL/Empire - Stagers.md",
     "COMMAND AND CONTROL/Empire - Installation.md",
     "COMMAND AND CONTROL/Empire - Agents.md",
-    "PIVOTING/What is Pivoting?.md",
-    "GIT SERVER/Code review.md",
     "COMMAND AND CONTROL",
     "Diagram.svg.xml",
     "GIT SERVER",

