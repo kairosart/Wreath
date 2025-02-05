@@ -16,8 +16,8 @@
               "state": {
                 "file": "GIT SERVER/Stabilisation & Post Exploitation.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Stabilisation & Post Exploitation"
@@ -36,36 +36,6 @@
               },
               "icon": "lucide-file",
               "title": "Website Code Analysis"
-            }
-          },
-          {
-            "id": "0def4205032b6573",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AV EVASION/PHP Payload Obfuscation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "PHP Payload Obfuscation"
-            }
-          },
-          {
-            "id": "3f25f58cc6889d14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AV EVASION/AV Detection Methods.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "AV Detection Methods"
             }
           },
           {
@@ -97,9 +67,63 @@
               "icon": "lucide-file",
               "title": "Compiling Netcat & Reverse Shell!"
             }
+          },
+          {
+            "id": "caec096d7cec9f6e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Screenshot from 2025-02-05 20-40-10.png"
+              },
+              "icon": "lucide-image",
+              "title": "Screenshot from 2025-02-05 20-40-10"
+            }
+          },
+          {
+            "id": "ebac9416a91b2259",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Screenshot from 2025-02-05 19-53-39.png"
+              },
+              "icon": "lucide-image",
+              "title": "Screenshot from 2025-02-05 19-53-39"
+            }
+          },
+          {
+            "id": "ca3876cc07e2505c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "c3bccf082199979c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AV EVASION/Privilege Escalation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Privilege Escalation"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       },
       {
         "id": "8d8f111a0e2619e8",
@@ -112,13 +136,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIVOTING/Chisel.md",
+                "file": "PERSONAL PC/Pivoting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Chisel"
+              "title": "Pivoting"
             }
           }
         ]
@@ -234,13 +258,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AV EVASION/Compiling Netcat & Reverse Shell!.md",
+                "file": "AV EVASION/Privilege Escalation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Compiling Netcat & Reverse Shell!"
+              "title": "Outline of Privilege Escalation"
             }
           },
           {
@@ -465,35 +489,37 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6c994e66ece44a7b",
+  "active": "c3bccf082199979c",
   "lastOpenFiles": [
-    "images/ac7e2a438cd5.webp",
-    "PIVOTING/Chisel.md",
+    "images/Screenshot from 2025-02-05 19-53-39.png",
+    "README.md",
+    "images/f0b36cf3dfba.png",
+    "images/Screenshot from 2025-02-05 20-40-10.png",
+    "AV EVASION/Enumeration.md",
+    "AV EVASION/Privilege Escalation.md",
+    "PERSONAL PC/Pivoting.md",
+    "images/Screenshot from 2025-02-05 20-37-15.png",
     "AV EVASION/Compiling Netcat & Reverse Shell!.md",
+    "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "GIT SERVER/Exploitation.md",
+    "AV EVASION/PHP Payload Obfuscation.md",
+    "images/Screenshot from 2025-02-05 19-43-16.webp",
+    "images/Screenshot from 2025-02-05 19-39-21.webp",
+    "PIVOTING/Chisel.md",
+    "images/ac7e2a438cd5.webp",
     "images/b29a99fd33fd.webp",
     "images/d71f7f2fcb0e.webp",
     "images/499921a44689.webp",
-    "AV EVASION/PHP Payload Obfuscation.md",
     "Index.md",
-    "images/6b09145ae074.webp",
     "AV EVASION/AV Detection Methods.md",
-    "images/98a8bd99378c.webp",
-    "images/2920fdb4cd18.webp",
     "AV EVASION/Introduction.md",
     "PERSONAL PC/Exploit PoC.md",
     "PERSONAL PC/Website Code Analysis.md",
     "PERSONAL PC/The Wonders of Git.md",
-    "PERSONAL PC/Pivoting.md",
-    "images/bb2ef4375625.webp",
     "AV EVASION",
-    "images/Exploit PoC-20250130193255187.webp",
-    "images/Exploit PoC-20250130193227913.webp",
-    "images/Exploit PoC-20250130193118071.webp",
-    "GIT SERVER/Stabilisation & Post Exploitation.md",
     "COMMAND AND CONTROL/Empire - Modules.md",
     "AccesS to PC.svg.xml",
     "WEBSERVER/Exploitation.md",
-    "GIT SERVER/Exploitation.md",
     "PERSONAL PC/Enumeration.md",
     "COMMAND AND CONTROL/Empire - Interactive Shell.md",
     "COMMAND AND CONTROL/Conclusion.md",
@@ -503,9 +529,6 @@
     "COMMAND AND CONTROL/Git Server.md",
     "COMMAND AND CONTROL/Empire - Hop Listeners.md",
     "COMMAND AND CONTROL/Empire - Listeners.md",
-    "COMMAND AND CONTROL/Empire - Stagers.md",
-    "COMMAND AND CONTROL/Empire - Installation.md",
-    "COMMAND AND CONTROL/Empire - Agents.md",
     "COMMAND AND CONTROL",
     "Diagram.svg.xml",
     "GIT SERVER",

