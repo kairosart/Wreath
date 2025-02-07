@@ -16,7 +16,7 @@ We'll start with some manual enumeration and hopefully come up with something wo
 
 # Your job
 
-On the #Eeverse_Shell use the command `whoami /priv`.
+On the #Reverse_Shell  use the command `whoami /priv`.
 
 ![[Screenshot from 2025-02-05 19-39-21.webp]]
 

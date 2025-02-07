@@ -164,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Attacking_Machine",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,8 +210,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -489,28 +488,28 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6c994e66ece44a7b",
+  "active": "c3bccf082199979c",
   "lastOpenFiles": [
+    "060e1ee4ce7c.png",
+    "PERSONAL PC/Pivoting.md",
+    "AV EVASION/Privilege Escalation.md",
+    "857c1d682e0e.png",
+    "9a27791867af.png",
+    "AV EVASION/Enumeration.md",
+    "99f9b77f1bf0.png",
     "images/f051e39d81f6.png",
     "images/1680d2c86ef0.png",
     "images/Screenshot from 2025-02-05 19-53-39.png",
     "README.md",
     "images/f0b36cf3dfba.png",
     "images/Screenshot from 2025-02-05 20-40-10.png",
-    "AV EVASION/Enumeration.md",
-    "AV EVASION/Privilege Escalation.md",
-    "PERSONAL PC/Pivoting.md",
     "images/Screenshot from 2025-02-05 20-37-15.png",
     "AV EVASION/Compiling Netcat & Reverse Shell!.md",
     "GIT SERVER/Stabilisation & Post Exploitation.md",
     "GIT SERVER/Exploitation.md",
     "AV EVASION/PHP Payload Obfuscation.md",
     "images/Screenshot from 2025-02-05 19-43-16.webp",
-    "images/Screenshot from 2025-02-05 19-39-21.webp",
     "PIVOTING/Chisel.md",
-    "images/ac7e2a438cd5.webp",
-    "images/b29a99fd33fd.webp",
-    "images/d71f7f2fcb0e.webp",
     "Index.md",
     "AV EVASION/AV Detection Methods.md",
     "AV EVASION/Introduction.md",
