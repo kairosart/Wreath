@@ -85,4 +85,4 @@ Invoke-Portscan -Hosts 10.200.84.100 -TopPorts 50
 >`80, 3889`
 
 
-**Next step: ** [[PERSONAL PC/Pivoting|Pivoting]]
+**Next step:**  [[PERSONAL PC/Pivoting|Pivoting]]

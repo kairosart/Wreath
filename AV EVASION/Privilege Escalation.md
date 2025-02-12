@@ -28,10 +28,15 @@ If you are using the AttackBox then this should already be installed.
 
 ## Create Wrapper.cs
 
-Now, open a file called `Wrapper.cs` in your favourite text editor.
+Now, open a file called `Wrapper.cs` in your favorite text editor.
 
 The first thing we need to do is add our "imports". These allow us to use pre-defined code from other "namespaces" -- essentially giving us access to some basic functions (e.g. input/output). At the very top if the file, add the following lines:  
-`using System;   using System.Diagnostics;   `  
+
+```
+using System;
+using System.Diagnostics;  
+```
+ 
 
 These allow us to start new processes (i.e. execute netcat).
 
@@ -98,7 +103,7 @@ First up, let's download the package:
 >On the AttackBox Impacket is preinstalled at `/opt/impacket/impacket`
 
 We can now start up a temporary SMB server:  
-`sudo python3 /opt/impacket/examples/smbserver.py share . -smb2support -username user -password s3cureP@ssword`
+`sudo python3 /usr/share/doc/python3-impacket/examples/smbserver.py share . -smb2support -username user -password s3cureP@ssword`
 
 ![[99f9b77f1bf0.png]]
 
