@@ -232,13 +232,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GIT SERVER/Exploitation.md",
+                "file": "AV EVASION/Privilege Escalation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Exploitation"
+              "title": "Outline of Privilege Escalation"
             }
           },
           {
@@ -463,8 +463,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "887764eaad4c32c2",
+  "active": "c3bccf082199979c",
   "lastOpenFiles": [
+    "GIT SERVER/Exploitation.md",
     "AV EVASION/Privilege Escalation.md",
     "AV EVASION/Enumeration.md",
     "AV EVASION/Compiling Netcat & Reverse Shell!.md",
@@ -479,7 +480,6 @@
     "COMMAND AND CONTROL/Empire - Interactive Shell.md",
     "COMMAND AND CONTROL/Empire - Modules.md",
     "COMMAND AND CONTROL/Git Server.md",
-    "GIT SERVER/Exploitation.md",
     "PERSONAL PC/Enumeration.md",
     "GIT SERVER/Code review.md",
     "GIT SERVER/Pivoting.md",
