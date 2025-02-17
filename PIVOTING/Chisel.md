@@ -1,4 +1,4 @@
-[Chisel](https://github.com/jpillora/chisel) is an awesome tool which can be used to quickly and easily set up a tunnelled proxy or port forward through a compromised system, regardless of whether you have SSH access or not. It's written in Golang and can be easily compiled for any system (with static release binaries for Linux and Windows provided). In many ways it provides the same functionality as the standard SSH proxying / port forwarding we covered earlier; however, the fact *it doesn't require SSH access on the compromised target* is a big bonus.
+[Chisel](https://github.com/jpillora/chisel) is an awesome tool which can be used to quickly and easily set up a tunneled proxy or port forward through a compromised system, regardless of whether you have SSH access or not. It's written in Golang and can be easily compiled for any system (with static release binaries for Linux and Windows provided). In many ways it provides the same functionality as the standard SSH proxying / port forwarding we covered earlier; however, the fact *it doesn't require SSH access on the compromised target* is a big bonus.
 
 Before we can use chisel, we need to download appropriate binaries from the tool's [Github release page](https://github.com/jpillora/chisel/releases). These can then be unzipped using `gunzip`, and executed as normal:
 
@@ -59,7 +59,15 @@ For example, `./chisel client 172.16.0.10:8080 1337:socks` would connect to a 
 ## Proxychains Reminder
 
 When sending data through either of these proxies, we would need to set the port in our proxychains configuration. As Chisel uses a SOCKS5 proxy, we will also need to change the start of the line from `socks4` to `socks5`:  
-`[ProxyList]   # add proxy here ...   # meanwhile   # defaults set to "tor"   socks5  127.0.0.1 1080`
+```
+[ProxyList]
+# add proxy here ...
+# meanwile
+# defaults set to "tor"
+socks5  127.0.0.1 1080
+```
+
+
 
 > [!Note]
 >The above configuration is for a reverse SOCKS proxy -- as mentioned previously, the proxy opens on port 1080 rather than the specified listening port (1337). If you use proxychains with a forward proxy then the port should be set to whichever port you opened (1337 in the above example).

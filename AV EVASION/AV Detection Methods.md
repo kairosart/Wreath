@@ -55,5 +55,5 @@ Additionally, new techniques are being developed all the time. For example, many
 >4.  What could be added to a file to ensure that only a user can open it (preventing AV from executing the payload)?
 >`Password`
 
-**Next step: **[[PHP Payload Obfuscation]]
+**Next step:** [[PHP Payload Obfuscation]]
 
