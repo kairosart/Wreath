@@ -49,7 +49,8 @@ Now when we run `make` to build the binary, the correct compiler will be used 
 
 With a copy of netcat available, we now need to get it up to the target.
 
-Start a Python webserver on your #Attacking_Machine (as demonstrated numerous times previously):  
+#Attacking_Machine
+Start a Python webserver  (as demonstrated numerous times previously):  
 `sudo python3 -m http.server 80   `
 
 Despite it often being much harder to upload binaries to Windows than it is to upload to Linux, we do have a few options here.
