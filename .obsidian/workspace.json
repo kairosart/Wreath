@@ -6,7 +6,7 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
-        "dimension": 52.94847920546245,
+        "dimension": 50.34140285536933,
         "children": [
           {
             "id": "2e1195bd1189d114",
@@ -14,13 +14,49 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT SERVER/Stabilisation & Post Exploitation.md",
+                "file": "AV EVASION/Privilege Escalation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Stabilisation & Post Exploitation"
+              "title": "Privilege Escalation"
+            }
+          },
+          {
+            "id": "7fff6424674413e4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/da5255d9443c 1.png"
+              },
+              "icon": "lucide-image",
+              "title": "da5255d9443c 1"
+            }
+          },
+          {
+            "id": "c086a20c80bee308",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/da5255d9443c.png"
+              },
+              "icon": "lucide-image",
+              "title": "da5255d9443c"
+            }
+          },
+          {
+            "id": "861b39495cfe065e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/da5255d9443c 1.png"
+              },
+              "icon": "lucide-image",
+              "title": "da5255d9443c 1"
             }
           },
           {
@@ -44,22 +80,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Privilege Escalation.md",
+                "file": "CONCLUSION/Debrief & Report.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Privilege Escalation"
+              "title": "Debrief & Report"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "8d8f111a0e2619e8",
         "type": "tabs",
-        "dimension": 47.05152079453755,
+        "dimension": 49.65859714463066,
         "children": [
           {
             "id": "7ad5288b1b4f5f0d",
@@ -67,13 +103,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Compiling Netcat & Reverse Shell!.md",
+                "file": "EXFILTRATION/Exfiltration Techniques & Post Exploitation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Compiling Netcat & Reverse Shell!"
+              "title": "Exfiltration Techniques & Post Exploitation"
             }
           }
         ]
@@ -95,7 +131,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "thomas",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,13 +225,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AV EVASION/Privilege Escalation.md",
+                "file": "EXFILTRATION/Exfiltration Techniques & Post Exploitation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Privilege Escalation"
+              "title": "Outline of Exfiltration Techniques & Post Exploitation"
             }
           },
           {
@@ -420,37 +456,41 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "619d2ef89d709d34",
+  "active": "7ad5288b1b4f5f0d",
   "lastOpenFiles": [
-    "AV EVASION/Compiling Netcat & Reverse Shell!.md",
+    "CONCLUSION/Debrief & Report.md",
+    "EXFILTRATION/Exfiltration Techniques & Post Exploitation.md",
     "AV EVASION/Privilege Escalation.md",
-    "210940d0f105.png",
-    "images/adffd8978a57.png",
-    "images/ff8bafc56cb6.png",
-    "images/7faedc9a86ab.png",
+    "CONCLUSION",
+    "images/28853bc2be23.png",
+    "images/52376f416ede.png",
+    "PERSONAL PC/Exploit PoC.md",
+    "EXFILTRATION",
+    "images/da5255d9443c 1.png",
+    "images/da5255d9443c.png",
+    "images/210940d0f105.png",
+    "AV EVASION/Enumeration.md",
+    "AV EVASION/Compiling Netcat & Reverse Shell!.md",
     "AV EVASION/PHP Payload Obfuscation.md",
     "AV EVASION/AV Detection Methods.md",
     "AV EVASION/Introduction.md",
-    "PERSONAL PC/Exploit PoC.md",
-    "PERSONAL PC/Pivoting.md",
-    "PERSONAL PC/The Wonders of Git.md",
-    "GIT SERVER/Stabilisation & Post Exploitation.md",
     "PERSONAL PC/Website Code Analysis.md",
-    "AccesS to PC.svg",
-    "README.md",
-    "images/Screenshot from 2025-02-21 11-50-16.png",
-    "images/Command & Control Empire Diagram.svg",
-    "AV EVASION/Enumeration.md",
-    "images/Screenshot from 2025-02-21 11-51-44.png",
-    "images/Screenshot from 2025-02-21 11-50-16 1.png",
-    "GIT SERVER/Exploitation.md",
+    "PERSONAL PC/The Wonders of Git.md",
+    "PERSONAL PC/Pivoting.md",
     "PERSONAL PC/Enumeration.md",
-    "GIT SERVER/Code review.md",
     "COMMAND AND CONTROL/Conclusion.md",
     "COMMAND AND CONTROL/Empire - Interactive Shell.md",
     "COMMAND AND CONTROL/Empire - Modules.md",
     "COMMAND AND CONTROL/Git Server.md",
-    "images/9a27791867af.png",
+    "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "images/adffd8978a57.png",
+    "images/ff8bafc56cb6.png",
+    "images/7faedc9a86ab.png",
+    "AccesS to PC.svg",
+    "README.md",
+    "images/Screenshot from 2025-02-21 11-50-16.png",
+    "GIT SERVER/Exploitation.md",
+    "GIT SERVER/Code review.md",
     "PIVOTING/Chisel.md",
     "GIT SERVER/Pivoting.md",
     "PIVOTING/sshuttle.md",
@@ -458,14 +498,11 @@
     "AV EVASION",
     "AccesS to PC.svg.xml",
     "WEBSERVER/Exploitation.md",
-    "COMMAND AND CONTROL/Empire - Overview.md",
     "PERSONAL PC",
     "COMMAND AND CONTROL",
     "Diagram.svg.xml",
     "GIT SERVER",
     "PIVOTING",
-    "WEBSERVER",
-    "INTRO",
-    "images"
+    "WEBSERVER"
   ]
 }
