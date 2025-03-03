@@ -39,3 +39,5 @@ There are many pentest report templates available on the Internet which can be u
 ---
 
 _With your report written and proof-read, you send the PDF to Thomas then sit back and relax, your work is done!_
+
+**Next step:** [[Final Thoughts]]
