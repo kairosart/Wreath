@@ -6,7 +6,7 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
-        "dimension": 19.056486654252016,
+        "dimension": 74.73618870266915,
         "children": [
           {
             "id": "2e1195bd1189d114",
@@ -14,99 +14,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Privilege Escalation.md",
+                "file": "PIVOTING/Enumeration.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Privilege Escalation"
+              "title": "Enumeration"
             }
           },
           {
-            "id": "7fff6424674413e4",
+            "id": "b69c33472101ff4c",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "images/da5255d9443c 1.png"
+                "file": "net0 Diagram.svg"
               },
               "icon": "lucide-image",
-              "title": "da5255d9443c 1"
-            }
-          },
-          {
-            "id": "c086a20c80bee308",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/da5255d9443c.png"
-              },
-              "icon": "lucide-image",
-              "title": "da5255d9443c"
-            }
-          },
-          {
-            "id": "861b39495cfe065e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/da5255d9443c 1.png"
-              },
-              "icon": "lucide-image",
-              "title": "da5255d9443c 1"
-            }
-          },
-          {
-            "id": "ca3876cc07e2505c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "619d2ef89d709d34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WEBSERVER/Exploitation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Exploitation"
+              "title": "net0 Diagram"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "8d8f111a0e2619e8",
         "type": "tabs",
-        "dimension": 80.94351334574799,
+        "dimension": 25.26381129733085,
         "children": [
           {
             "id": "7ad5288b1b4f5f0d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Network Diagram.svg"
+                "file": "CONCLUSION/Debrief & Report.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Network Diagram"
+              "icon": "lucide-file",
+              "title": "Debrief & Report"
             }
           }
         ]
@@ -222,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Diagram.svg",
+                "file": "PIVOTING/Enumeration.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Network Diagram"
+              "title": "Outline of Enumeration"
             }
           },
           {
@@ -453,16 +401,26 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6c994e66ece44a7b",
+  "active": "2e1195bd1189d114",
   "lastOpenFiles": [
-    "Diagram.svg",
-    "Network Diagram.svg.xml",
-    "Network Diagram.svg",
-    "EXFILTRATION/Exfiltration Techniques & Post Exploitation.md",
+    "Screenshot from 2025-03-05 21-28-36.png",
+    "PIVOTING/Proxychains & Foxyproxy.md",
+    "PIVOTING/Enumeration.md",
+    "PIVOTING/High-level Overview.md",
+    "PIVOTING/What is Pivoting?.md",
+    "net0 Diagram.svg",
+    "net1 Diagram.svg",
     "WEBSERVER/Exploitation.md",
     "Network Diagram.svg",
-    "CONCLUSION/Debrief & Report.md",
+    "net1 Diagram.svg.xml",
+    "Network Diagram 1.svg",
+    "Diagram.svg",
+    "WEBSERVER/Enumeration.md",
     "AV EVASION/Privilege Escalation.md",
+    "CONCLUSION/Debrief & Report.md",
+    "net0 Diagram.svg.xml",
+    "Network Diagram.svg.xml",
+    "EXFILTRATION/Exfiltration Techniques & Post Exploitation.md",
     "AV EVASION/Enumeration.md",
     "AV EVASION/Compiling Netcat & Reverse Shell!.md",
     "AV EVASION/PHP Payload Obfuscation.md",
@@ -474,31 +432,22 @@
     "PERSONAL PC/Pivoting.md",
     "AccesS to PC.svg",
     "CONCLUSION/Final Thoughts.md",
-    "WEBSERVER/Enumeration.md",
     "CONCLUSION",
     "images/28853bc2be23.png",
     "images/52376f416ede.png",
     "EXFILTRATION",
     "images/da5255d9443c 1.png",
     "images/da5255d9443c.png",
-    "images/210940d0f105.png",
     "PERSONAL PC/Enumeration.md",
     "COMMAND AND CONTROL/Conclusion.md",
     "COMMAND AND CONTROL/Empire - Interactive Shell.md",
     "COMMAND AND CONTROL/Empire - Modules.md",
     "COMMAND AND CONTROL/Git Server.md",
     "GIT SERVER/Stabilisation & Post Exploitation.md",
-    "images/adffd8978a57.png",
-    "README.md",
-    "GIT SERVER/Exploitation.md",
-    "GIT SERVER/Code review.md",
-    "PIVOTING/Chisel.md",
     "AV EVASION",
     "AccesS to PC.svg.xml",
     "PERSONAL PC",
     "COMMAND AND CONTROL",
-    "Diagram.svg.xml",
-    "GIT SERVER",
-    "PIVOTING"
+    "Diagram.svg.xml"
   ]
 }

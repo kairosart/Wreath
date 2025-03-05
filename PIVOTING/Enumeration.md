@@ -14,7 +14,7 @@ These are written in the order of preference. Using local tools through a proxy 
 
 Before anything else though, it's sensible to check to see if there are any pieces of useful information stored on the target. 
 
-- `arp -a` can be used to Windows or Linux to check the ARP cache of the machine -- this will show you any IP addresses of hosts that the target has interacted with recently. 
+- `arp -a` can be used on Windows or Linux to check the ARP cache of the machine -- this will show you any IP addresses of hosts that the target has interacted with recently. 
 - Equally, static mappings may be found in `/etc/hosts` on Linux, or `C:\Windows\System32\drivers\etc\hosts` on Windows. 
 - `/etc/resolv.conf` on Linux may also identify any local DNS servers, which may be misconfigured to allow something like a DNS zone transfer attack (which is outwith the scope of this content, but worth looking into). 
 	- On Windows the easiest way to check the DNS servers for an interface is with `ipconfig /all`. 
@@ -64,6 +64,16 @@ There are many other ways to perform enumeration using only the tools available 
 
 
 ---
+
+# Your job
+
+Run arp on the #Reverse_Shell .
+
+```
+arp -a
+```
+
+![[Screenshot from 2025-03-05 21-28-36.png]]
 
 
  >[!question]
