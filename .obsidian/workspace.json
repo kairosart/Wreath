@@ -12,30 +12,46 @@
             "id": "2e1195bd1189d114",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "PIVOTING/Enumeration.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "images/Screenshot from 2025-03-05 21-28-36.png"
               },
-              "icon": "lucide-file",
-              "title": "Enumeration"
+              "icon": "lucide-image",
+              "title": "Screenshot from 2025-03-05 21-28-36"
             }
           },
           {
             "id": "b69c33472101ff4c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "net0 Diagram.svg"
+                "file": "WEBSERVER/Exploitation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "net0 Diagram"
+              "icon": "lucide-file",
+              "title": "Exploitation"
+            }
+          },
+          {
+            "id": "2bdf27406b677330",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INTERNAL NETWORK/Scan the internal network.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Scan the internal network"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "8d8f111a0e2619e8",
@@ -76,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ssh ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PIVOTING/Enumeration.md",
+                "file": "INTERNAL NETWORK/Scan the internal network.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Enumeration"
+              "title": "Outline of Scan the internal network"
             }
           },
           {
@@ -401,25 +417,35 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "2e1195bd1189d114",
+  "active": "2bdf27406b677330",
   "lastOpenFiles": [
-    "Screenshot from 2025-03-05 21-28-36.png",
-    "PIVOTING/Proxychains & Foxyproxy.md",
-    "PIVOTING/Enumeration.md",
-    "PIVOTING/High-level Overview.md",
-    "PIVOTING/What is Pivoting?.md",
-    "net0 Diagram.svg",
-    "net1 Diagram.svg",
-    "WEBSERVER/Exploitation.md",
-    "Network Diagram.svg",
-    "net1 Diagram.svg.xml",
-    "Network Diagram 1.svg",
+    "images/Screenshot from 2025-03-05 21-28-36.png",
+    "GIT SERVER/Exploitation.md",
+    "INTERNAL NETWORK/Scan the internal network.md",
     "Diagram.svg",
+    "Diagram 1.svg.xml",
+    "Diagram 1.svg",
+    "images/Screenshot from 2025-03-06 21-23-47.png",
+    "images/Screenshot from 2025-03-06 21-15-12.png",
+    "WEBSERVER/Exploitation.md",
+    "images/Screenshot from 2025-03-06 21-02-13.png",
+    "INTERNAL NETWORK",
+    "PIVOTING/Enumeration.md",
     "WEBSERVER/Enumeration.md",
-    "AV EVASION/Privilege Escalation.md",
+    "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "PIVOTING/Chisel.md",
     "CONCLUSION/Debrief & Report.md",
-    "net0 Diagram.svg.xml",
+    "PIVOTING/What is Pivoting?.md",
+    "PIVOTING/Proxychains & Foxyproxy.md",
+    "Stage eof Compromise Diagram.svg",
+    "Network Diagram.svg",
+    "Local Network Diagram.svg",
+    "PIVOTING/High-level Overview.md",
+    "Stage eof Compromise Diagram.svg.xml",
+    "Network Diagram 1.svg",
+    "AV EVASION/Privilege Escalation.md",
     "Network Diagram.svg.xml",
+    "Local Network Diagram.svg.xml",
     "EXFILTRATION/Exfiltration Techniques & Post Exploitation.md",
     "AV EVASION/Enumeration.md",
     "AV EVASION/Compiling Netcat & Reverse Shell!.md",
@@ -430,24 +456,13 @@
     "PERSONAL PC/Website Code Analysis.md",
     "PERSONAL PC/The Wonders of Git.md",
     "PERSONAL PC/Pivoting.md",
-    "AccesS to PC.svg",
     "CONCLUSION/Final Thoughts.md",
     "CONCLUSION",
-    "images/28853bc2be23.png",
-    "images/52376f416ede.png",
     "EXFILTRATION",
-    "images/da5255d9443c 1.png",
-    "images/da5255d9443c.png",
     "PERSONAL PC/Enumeration.md",
     "COMMAND AND CONTROL/Conclusion.md",
-    "COMMAND AND CONTROL/Empire - Interactive Shell.md",
-    "COMMAND AND CONTROL/Empire - Modules.md",
-    "COMMAND AND CONTROL/Git Server.md",
-    "GIT SERVER/Stabilisation & Post Exploitation.md",
     "AV EVASION",
     "AccesS to PC.svg.xml",
-    "PERSONAL PC",
-    "COMMAND AND CONTROL",
-    "Diagram.svg.xml"
+    "PERSONAL PC"
   ]
 }
