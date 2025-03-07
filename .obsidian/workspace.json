@@ -12,21 +12,9 @@
             "id": "2e1195bd1189d114",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Screenshot from 2025-03-05 21-28-36.png"
-              },
-              "icon": "lucide-image",
-              "title": "Screenshot from 2025-03-05 21-28-36"
-            }
-          },
-          {
-            "id": "b69c33472101ff4c",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "WEBSERVER/Exploitation.md",
+                "file": "GIT SERVER/Exploitation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -36,22 +24,49 @@
             }
           },
           {
+            "id": "b69c33472101ff4c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Local Network Diagram.svg"
+              },
+              "icon": "lucide-image",
+              "title": "Local Network Diagram"
+            }
+          },
+          {
             "id": "2bdf27406b677330",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTERNAL NETWORK/Scan the internal network.md",
+                "file": "GIT SERVER/Visit the webpage of git-serv.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Scan the internal network"
+              "title": "Visit the webpage of git-serv"
+            }
+          },
+          {
+            "id": "da91c1d4db92dc2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GIT SERVER/Exploitation.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Exploitation"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "8d8f111a0e2619e8",
@@ -143,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 386.5
   },
   "right": {
     "id": "68fd4a1bf3817dcd",
@@ -186,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INTERNAL NETWORK/Scan the internal network.md",
+                "file": "GIT SERVER/Exploitation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Scan the internal network"
+              "title": "Outline of Exploitation"
             }
           },
           {
@@ -417,50 +432,50 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "2bdf27406b677330",
+  "active": "da91c1d4db92dc2c",
   "lastOpenFiles": [
-    "images/Screenshot from 2025-03-05 21-28-36.png",
-    "GIT SERVER/Exploitation.md",
-    "INTERNAL NETWORK/Scan the internal network.md",
+    "GIT SERVER/Code review.md",
+    "GIT SERVER/Searching for public exploit.md",
+    "Local Network Diagram.svg",
+    "Full Network Diagram.svg",
+    "Network Diagram.svg",
     "Diagram.svg",
-    "Diagram 1.svg.xml",
-    "Diagram 1.svg",
-    "images/Screenshot from 2025-03-06 21-23-47.png",
-    "images/Screenshot from 2025-03-06 21-15-12.png",
-    "WEBSERVER/Exploitation.md",
-    "images/Screenshot from 2025-03-06 21-02-13.png",
-    "INTERNAL NETWORK",
-    "PIVOTING/Enumeration.md",
-    "WEBSERVER/Enumeration.md",
+    "AV EVASION/Privilege Escalation.md",
+    "GIT SERVER/Exploitation.md",
+    "GIT SERVER/Pivoting.md",
+    "GIT SERVER/Visit the webpage of git-serv.md",
+    "AV EVASION/PHP Payload Obfuscation.md",
+    "images/Pivoting-20241214145333847.webp",
+    "GIT SERVER/Enumeration.md",
+    "images/Screenshot from 2025-03-07 19-28-39.png",
+    "Screenshot from 2025-03-07 19-52-17.png",
+    "images/1680d2c86ef0.png",
+    "images/857c1d682e0e.png",
+    "images/99f9b77f1bf0.png",
+    "AV EVASION/Introduction.md",
+    "AV EVASION/Enumeration.md",
+    "COMMAND AND CONTROL/Git Server.md",
     "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "PIVOTING/Enumeration.md",
+    "WEBSERVER/Exploitation.md",
+    "INTERNAL NETWORK/Scan the internal network.md",
+    "PIVOTING/Conclusion.md",
+    "PIVOTING/sshuttle.md",
+    "PIVOTING/What is Pivoting?.md",
+    "Local Network Diagram.svg.xml",
+    "INTERNAL NETWORK",
+    "WEBSERVER/Enumeration.md",
     "PIVOTING/Chisel.md",
     "CONCLUSION/Debrief & Report.md",
-    "PIVOTING/What is Pivoting?.md",
     "PIVOTING/Proxychains & Foxyproxy.md",
-    "Stage eof Compromise Diagram.svg",
-    "Network Diagram.svg",
-    "Local Network Diagram.svg",
     "PIVOTING/High-level Overview.md",
     "Stage eof Compromise Diagram.svg.xml",
-    "Network Diagram 1.svg",
-    "AV EVASION/Privilege Escalation.md",
     "Network Diagram.svg.xml",
-    "Local Network Diagram.svg.xml",
+    "Full Network Diagram.svg.xml",
     "EXFILTRATION/Exfiltration Techniques & Post Exploitation.md",
-    "AV EVASION/Enumeration.md",
     "AV EVASION/Compiling Netcat & Reverse Shell!.md",
-    "AV EVASION/PHP Payload Obfuscation.md",
-    "AV EVASION/AV Detection Methods.md",
-    "AV EVASION/Introduction.md",
-    "PERSONAL PC/Exploit PoC.md",
-    "PERSONAL PC/Website Code Analysis.md",
-    "PERSONAL PC/The Wonders of Git.md",
-    "PERSONAL PC/Pivoting.md",
-    "CONCLUSION/Final Thoughts.md",
     "CONCLUSION",
     "EXFILTRATION",
-    "PERSONAL PC/Enumeration.md",
-    "COMMAND AND CONTROL/Conclusion.md",
     "AV EVASION",
     "AccesS to PC.svg.xml",
     "PERSONAL PC"

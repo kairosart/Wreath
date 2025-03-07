@@ -4,13 +4,13 @@ The big take away from this section is: there are _many_ different ways to piv
 
 As a summary of the tools in this section:
 
-- Proxychains and FoxyProxy are used to access a proxy created with one of the other tools
-- SSH can be used to create both port forwards, and proxies
-- plink.exe is an SSH client for Windows, allowing you to create reverse SSH connections on Windows
-- Socat is a good option for redirecting connections, and can be used to create port forwards in a variety of different ways
-- Chisel can do the exact same thing as with SSH portforwarding/tunneling, but doesn't require SSH access on the box
-- sshuttle is a nicer way to create a proxy when we have SSH access on a target  
-    
+- **Proxychains** and **FoxyProxy** are used to access a proxy created with one of the other tools
+- **SSH** can be used to create both port forwards, and proxies
+- **plink.exe** is an SSH client for Windows, allowing you to create reverse SSH connections on Windows
+- **Socat** is a good option for redirecting connections, and can be used to create port forwards in a variety of different ways
+- **Chisel** can do the exact same thing as with SSH portforwarding/tunneling, but doesn't require SSH access on the box
+- **sshuttle** is a nicer way to create a proxy when we have SSH access on a target  
+
 
 Pivoting truly is a vast topic; however, hopefully you've learnt something by covering the theory in this section!
 
@@ -24,12 +24,15 @@ This is a good time to experiment with the techniques demonstrated in the pivoti
 
 # Your job
 
-I've choose SSH Proxy to pivot to the the following machine on the network.
+I've choose *sshuttle* to pivot to the the following machine on the network.
+
+#Attacking_Machine 
+```
+$ sshuttle -r root@10.200.84.200 --ssh-cmd "ssh -i id_rsa" 10.200.84.0/24 -x 10.200.84.200
 
 ```
-$ ssh -D 1337 root@10.200.84.200 -i id_rsa -fN
 
-```
+![[Screenshot from 2025-03-07 19-28-39.png]]
 
 **Next step:** [[GIT SERVER/Enumeration|Enumeration]]
 

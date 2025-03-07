@@ -1,6 +1,6 @@
 Thinking about the interesting service on the next target that we discovered in the previous task, pick a pivoting technique and use it to connect to this service, using the web browser on your attacking machine! 
 
-As a word of advice: sshuttle is highly recommended for creating an initial access point into the rest of the network. This is because the firewall on the CentOS target will prove problematic with some of the techniques shown here. We will learn how to mitigate against this later in the room, although if you're comfortable opening up a port using firewalld then port forwarding or a proxy would also work.
+As a word of advice: *sshuttle* is highly recommended for creating an initial access point into the rest of the network. This is because the firewall on the CentOS target will prove problematic with some of the techniques shown here. We will learn how to mitigate against this later in the room, although if you're comfortable opening up a port using firewalld then port forwarding or a proxy would also work.
 
 ---
 
@@ -16,7 +16,21 @@ As a word of advice: sshuttle is highly recommended for creating an initial acce
 >3. You will see that there are three publicly available exploits. There is one Python RCE exploit for version 2.3.10 of the service. What is the EDB ID number of this exploit?
 >`43777`
 
-**Next step:** [[Code review]]
+
+# Your job
+
+#Attacking_Machine 
+- Create a sshuttle VPN through which we could move inside the network.
+
+```
+sshuttle -r root@10.200.84.200 --ssh-cmd "ssh -i id_rsa" 10.200.84.0/24 -x 10.200.84.200
+```
+
+![[Screenshot from 2025-03-07 19-28-39.png]]
+
+
+
+**Next step:** [[Visit the webpage of git-serv]]
 
 
 
