@@ -26,8 +26,9 @@ Exit out of evil-winrm -- you should see that a new directory called Website.git
 
 ## Git
 
-Rename this _subdirectory_ to `.git`. #Attacking_Machine 
+Rename this _subdirectory_ to `.git`. 
 
+#Attacking_Machine 
 ```
 mv Website.git .git
 ```
@@ -110,7 +111,8 @@ The short version is: the most up to date version of the site stored in the Git 
 
 # Your job
 
-1. **Move file to Website.git** File was downloaded as `Website.git'` and needs to be `.git`. #Attacking_Machine 
+1. **Move file to Website.git** File was downloaded as `Website.git'` and needs to be `.git`. 
+#Attacking_Machine 
 ```
 mv Website.git .git  
 ```
@@ -130,6 +132,14 @@ separator="======================================="; for i in $(ls); do printf "
 ```
 
 ![[The Wonders of Git-20250127211555229.webp]]
+
+Searching for the order of the commit you find that the commit that has no parent is (`70dde80cc19ec76704567996738894828f4ee895`), and check to see which of the other commits specifies it as a direct parent (82dfc97bec0d7582d485d9031c09abcb5c6b18f2). 
+
+Repeat the process to find the full commit order: 
+1. 70dde80cc19ec76704567996738894828f4ee895 
+2. 82dfc97bec0d7582d485d9031c09abcb5c6b18f2 
+3. 345ac8b236064b431fa43f53d91c98c4834ef8f3
+
 
 **Next step: ** [[Website Code Analysis]]
 

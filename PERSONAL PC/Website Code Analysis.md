@@ -31,7 +31,13 @@ Let's turn our attention to the code itself now.
 Reading through the PHP code, it appears that there are _two_ filters in place here, plus a simple check to see if the file already exists.
 
 These filters are rolled together into one block of PHP code:  
-`$size = getimagesize($_FILES["file"]["tmp_name"]);   if(!in_array(explode(".", $_FILES["file"]["name"])[1], $goodExts) || !$size){       header("location: ./?msg=Fail");       die();   }`  
+```
+$size = getimagesize($_FILES["file"]["tmp_name"]); 
+if(!in_array(explode(".", $_FILES["file"]["name"])[1], $goodExts) || !$size){ 
+	header("location: ./?msg=Fail");
+    die();  
+ }
+```
 
 The first line here uses a classic PHP technique used to see if a file is an image. In short, images have their dimensions encoded in their exif data. The `getimagesize()` method returns these dimensions if the file is genuinely an image, or the boolean value `False` if the file is not an image. This is more difficult to bypass than other filters, but it's far from impossible to do so.
 
@@ -56,7 +62,13 @@ This checks to see if the result returned by the `explode()` method is _not_�
 >`jpg,jpeg,png,gif`
 
 Between lines 4 and 15:  
-`$target = "uploads/".basename($_FILES["file"]["name"]);   ...   move_uploaded_file($_FILES["file"]["tmp_name"], $target);   `  
+
+```
+$target = "uploads/".basename($_FILES["file"]["name"]);   
+...  
+
+move_uploaded_file($_FILES["file"]["tmp_name"], $target);
+```
 
 We can see that the file will get moved into an `uploads/` directory with it's original name, assuming it passed the two filters.
 
