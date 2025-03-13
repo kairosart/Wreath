@@ -14,10 +14,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Local Network Diagram.svg"
+                "file": "Stage of Compromise 100 Diagram.svg"
               },
               "icon": "lucide-image",
-              "title": "Local Network Diagram"
+              "title": "Stage of Compromise 100 Diagram"
             }
           },
           {
@@ -26,13 +26,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PERSONAL PC/Pivoting.md",
+                "file": "AV EVASION/Enumeration.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Pivoting"
+              "title": "Enumeration"
+            }
+          },
+          {
+            "id": "a256da7d713a508b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GIT SERVER/Stabilisation & Post Exploitation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Stabilisation & Post Exploitation"
             }
           },
           {
@@ -201,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PERSONAL PC/Pivoting.md",
+                "file": "AV EVASION/Enumeration.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pivoting"
+              "title": "Outline of Enumeration"
             }
           },
           {
@@ -434,43 +449,43 @@
   },
   "active": "b69c33472101ff4c",
   "lastOpenFiles": [
+    "AV EVASION/Compiling Netcat & Reverse Shell!.md",
+    "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "Stage of Compromise 100 Diagram.svg",
+    "Stage of Compromise 150 Diagram.svg",
+    "Stage of Compromise 100 Diagram.svg.xml",
+    "Stage of Compromise 200 Diagram.svg",
+    "Screenshot from 2025-03-07 19-52-17.png",
+    "Screenshot from 2025-03-11 20-23-35 1.png",
+    "Screenshot from 2025-03-11 20-23-35.png",
+    "Local Network Diagram.svg",
+    "GIT SERVER/Visit the webpage of git-serv.md",
+    "AV EVASION/PHP Payload Obfuscation.md",
+    "AV EVASION/AV Detection Methods.md",
+    "AV EVASION/Introduction.md",
+    "PERSONAL PC/Exploit PoC.md",
+    "PERSONAL PC/The Wonders of Git.md",
+    "PERSONAL PC/Pivoting.md",
     "PERSONAL PC/Enumeration.md",
     "PERSONAL PC/Website Code Analysis.md",
-    "PERSONAL PC/The Wonders of Git.md",
     "CONCLUSION/Debrief & Report.md",
     "GIT SERVER/Code review.md",
     "GIT SERVER/Searching for public exploit.md",
-    "Screenshot from 2025-03-11 20-23-35 1.png",
-    "Screenshot from 2025-03-11 20-23-35.png",
     "GIT SERVER/Pivoting.md",
-    "GIT SERVER/Stabilisation & Post Exploitation.md",
-    "GIT SERVER/Visit the webpage of git-serv.md",
     "GIT SERVER/Enumeration.md",
     "GIT SERVER/Exploitation.md",
-    "Local Network Diagram.svg",
     "COMMAND AND CONTROL/Conclusion.md",
     "COMMAND AND CONTROL/Empire - Interactive Shell.md",
     "COMMAND AND CONTROL/Empire - Modules.md",
     "COMMAND AND CONTROL/Git Server.md",
     "Network Diagram.svg",
-    "Stage of Compromise 200 Diagram.svg",
-    "Stage of Compromise 150 Diagram.svg",
     "Stage of Compromise 150 Diagram.svg.xml",
     "Index.md",
     "Full Network Diagram.svg",
     "AccesS to PC.svg",
-    "Diagram.svg",
     "AV EVASION/Privilege Escalation.md",
-    "AV EVASION/PHP Payload Obfuscation.md",
-    "images/Pivoting-20241214145333847.webp",
-    "AV EVASION/Introduction.md",
     "AV EVASION/Enumeration.md",
     "PIVOTING/Enumeration.md",
-    "WEBSERVER/Exploitation.md",
-    "INTERNAL NETWORK/Scan the internal network.md",
-    "PIVOTING/Conclusion.md",
-    "PIVOTING/sshuttle.md",
-    "PIVOTING/What is Pivoting?.md",
     "Local Network Diagram.svg.xml",
     "INTERNAL NETWORK",
     "Stage of Compromise 200 Diagram.svg.xml",
@@ -478,7 +493,6 @@
     "Full Network Diagram.svg.xml",
     "CONCLUSION",
     "EXFILTRATION",
-    "AV EVASION",
-    "AccesS to PC.svg.xml"
+    "AV EVASION"
   ]
 }

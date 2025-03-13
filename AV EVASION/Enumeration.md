@@ -5,8 +5,9 @@ We don't yet have full system access to the target though. As we saw when we fir
 This does mean that we're going to need to enumerate the target for privesc vectors though -- and with Defender active, we'll have to do it quietly. Let's consider our options:
 
 - We could (and should) always start with a little manual enumeration. This will be relatively quiet and gives us a baseline to work with  
-    
-- Defender would _definitely_ catch a regular copy of WinPEAS; however, it would be unlikely to catch either the `.bat` version or the obfuscated `.exe` version, both of which are released in the [PEAS repository](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/) alongside the regular version
+
+- Defender would _definitely_ catch a regular copy of WinPEAS; however, it would be unlikely to catch either the `.bat` version or the obfuscated `.exe` version, both of which are released in the [PEAS repository](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/) alongside the regular version.
+
 - Chances are that AMSI will alert Defender if we try to load any PowerShell privesc check scripts (e.g. PowerUp), so we'd ideally be looking for obfuscated versions of these if we were to use them
 
 We'll start with some manual enumeration and hopefully come up with something workable!

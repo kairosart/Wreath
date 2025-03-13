@@ -29,7 +29,7 @@ We now need to obfuscate this payload.
 There are a variety of measures we could take here, including but not limited to:
 
 - Switching parts of the exploit around so that they're in an unusual order
-- Encoding all of the strings so that they're not recognisable
+- Encoding all of the strings so that they're not recognisable.
 - Splitting up distinctive parts of the code (e.g. `shell_exec($_GET[...])`)
 
 
