@@ -107,15 +107,12 @@
             "id": "7ad5288b1b4f5f0d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CONCLUSION/Final Thoughts.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "images/Diagram.svg"
               },
-              "icon": "lucide-file",
-              "title": "Final Thoughts"
+              "icon": "lucide-image",
+              "title": "Diagram"
             }
           }
         ]
@@ -137,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exploit-KAIROS.php",
+                "query": "diagram",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -231,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index.md",
+                "file": "images/Diagram.svg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline of Diagram"
             }
           },
           {
@@ -462,12 +459,34 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6c994e66ece44a7b",
+  "active": "7ad5288b1b4f5f0d",
   "lastOpenFiles": [
-    "Wreath_report.pdf",
-    "README.md",
-    "Index.md",
+    "images/Full Network Diagram.svg",
+    "images/Full Network Diagram.svg.xml",
+    "images/Local Network Diagram.svg",
+    "images/Local Network Diagram.svg.xml",
+    "images/Network Diagram.svg",
+    "images/Network Diagram.svg.xml",
+    "images/Stage of Compromise 100 Diagram.svg",
+    "images/Stage of Compromise 100 Diagram.svg.xml",
+    "images/Stage of Compromise 150 Diagram.svg",
+    "images/Stage of Compromise 150 Diagram.svg.xml",
+    "images/Stage of Compromise 200 Diagram.svg",
+    "images/Stage of Compromise 200 Diagram.svg.xml",
+    "Stage of Compromise 200 Diagram.svg.xml",
+    "Stage of Compromise 200 Diagram.svg",
+    "Stage of Compromise 150 Diagram.svg.xml",
+    "Stage of Compromise 150 Diagram.svg",
+    "Stage of Compromise 100 Diagram.svg.xml",
+    "Stage of Compromise 100 Diagram.svg",
+    "Network Diagram.svg.xml",
+    "Network Diagram.svg",
+    "Local Network Diagram.svg",
+    "PIVOTING/What is Pivoting?.md",
+    "PERSONAL PC/Pivoting.md",
     "CONCLUSION/Final Thoughts.md",
+    "Index.md",
+    "README.md",
     "CONCLUSION/Debrief & Report.md",
     "EXFILTRATION/Exfiltration Techniques & Post Exploitation.md",
     "AV EVASION/Privilege Escalation.md",
@@ -479,7 +498,6 @@
     "PERSONAL PC/Exploit PoC.md",
     "PERSONAL PC/Website Code Analysis.md",
     "PERSONAL PC/The Wonders of Git.md",
-    "PERSONAL PC/Pivoting.md",
     "PERSONAL PC/Enumeration.md",
     "COMMAND AND CONTROL/Conclusion.md",
     "COMMAND AND CONTROL/Empire - Interactive Shell.md",
@@ -488,27 +506,6 @@
     "GIT SERVER/Stabilisation & Post Exploitation.md",
     "GIT SERVER/Exploitation.md",
     "GIT SERVER/Code review.md",
-    "GIT SERVER/Searching for public exploit.md",
-    "GIT SERVER/Visit the webpage of git-serv.md",
-    "images/AccesS to PC.svg",
-    "docs",
-    "images/Stage of Compromise 100 Diagram.svg",
-    "images/Local Network Diagram.svg",
-    "images/Diagram.svg",
-    "images/Screenshot from 2025-03-07 19-52-17.png",
-    "images/Stage of Compromise 150 Diagram.svg",
-    "images/Screenshot from 2025-03-11 20-23-35.png",
-    "images/Screenshot from 2025-03-11 20-23-35 1.png",
-    "images/Stage of Compromise 200 Diagram.svg",
-    "images/Diagram 1.svg.xml",
-    "images/Diagram 1.svg",
-    "images/Stage of Compromise 100 Diagram.svg.xml",
-    "images/Stage of Compromise 150 Diagram.svg.xml",
-    "images/Local Network Diagram.svg.xml",
-    "INTERNAL NETWORK",
-    "images/Stage of Compromise 200 Diagram.svg.xml",
-    "images/Network Diagram.svg.xml",
-    "images/Full Network Diagram.svg.xml",
-    "CONCLUSION"
+    "GIT SERVER/Searching for public exploit.md"
   ]
 }
