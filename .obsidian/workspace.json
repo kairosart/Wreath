@@ -6,33 +6,21 @@
       {
         "id": "81301f8adfcc6d3a",
         "type": "tabs",
-        "dimension": 74.73618870266915,
+        "dimension": 61.78643384822028,
         "children": [
-          {
-            "id": "2e1195bd1189d114",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Stage of Compromise 100 Diagram.svg"
-              },
-              "icon": "lucide-image",
-              "title": "Stage of Compromise 100 Diagram"
-            }
-          },
           {
             "id": "b69c33472101ff4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AV EVASION/Enumeration.md",
+                "file": "EXFILTRATION/Exfiltration Techniques & Post Exploitation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Enumeration"
+              "title": "Exfiltration Techniques & Post Exploitation"
             }
           },
           {
@@ -54,15 +42,42 @@
             "id": "2bdf27406b677330",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "images/AccesS to PC.svg"
+              },
+              "icon": "lucide-image",
+              "title": "AccesS to PC"
+            }
+          },
+          {
+            "id": "f7c223a21ccf8469",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT SERVER/Visit the webpage of git-serv.md",
+                "file": "PIVOTING/Proxychains & Foxyproxy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Visit the webpage of git-serv"
+              "title": "Proxychains & Foxyproxy"
+            }
+          },
+          {
+            "id": "a69451156f791884",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
             }
           },
           {
@@ -81,12 +96,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "8d8f111a0e2619e8",
         "type": "tabs",
-        "dimension": 25.26381129733085,
+        "dimension": 38.213566151779716,
         "children": [
           {
             "id": "7ad5288b1b4f5f0d",
@@ -94,13 +109,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CONCLUSION/Debrief & Report.md",
+                "file": "CONCLUSION/Final Thoughts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Debrief & Report"
+              "title": "Final Thoughts"
             }
           }
         ]
@@ -216,13 +231,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AV EVASION/Enumeration.md",
+                "file": "Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Enumeration"
+              "title": "Outline of Index"
             }
           },
           {
@@ -447,52 +462,53 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "b69c33472101ff4c",
+  "active": "6c994e66ece44a7b",
   "lastOpenFiles": [
+    "Wreath_report.pdf",
+    "README.md",
+    "Index.md",
+    "CONCLUSION/Final Thoughts.md",
+    "CONCLUSION/Debrief & Report.md",
+    "EXFILTRATION/Exfiltration Techniques & Post Exploitation.md",
+    "AV EVASION/Privilege Escalation.md",
+    "AV EVASION/Enumeration.md",
     "AV EVASION/Compiling Netcat & Reverse Shell!.md",
-    "GIT SERVER/Stabilisation & Post Exploitation.md",
-    "Stage of Compromise 100 Diagram.svg",
-    "Stage of Compromise 150 Diagram.svg",
-    "Stage of Compromise 100 Diagram.svg.xml",
-    "Stage of Compromise 200 Diagram.svg",
-    "Screenshot from 2025-03-07 19-52-17.png",
-    "Screenshot from 2025-03-11 20-23-35 1.png",
-    "Screenshot from 2025-03-11 20-23-35.png",
-    "Local Network Diagram.svg",
-    "GIT SERVER/Visit the webpage of git-serv.md",
     "AV EVASION/PHP Payload Obfuscation.md",
     "AV EVASION/AV Detection Methods.md",
     "AV EVASION/Introduction.md",
     "PERSONAL PC/Exploit PoC.md",
+    "PERSONAL PC/Website Code Analysis.md",
     "PERSONAL PC/The Wonders of Git.md",
     "PERSONAL PC/Pivoting.md",
     "PERSONAL PC/Enumeration.md",
-    "PERSONAL PC/Website Code Analysis.md",
-    "CONCLUSION/Debrief & Report.md",
-    "GIT SERVER/Code review.md",
-    "GIT SERVER/Searching for public exploit.md",
-    "GIT SERVER/Pivoting.md",
-    "GIT SERVER/Enumeration.md",
-    "GIT SERVER/Exploitation.md",
     "COMMAND AND CONTROL/Conclusion.md",
     "COMMAND AND CONTROL/Empire - Interactive Shell.md",
     "COMMAND AND CONTROL/Empire - Modules.md",
     "COMMAND AND CONTROL/Git Server.md",
-    "Network Diagram.svg",
-    "Stage of Compromise 150 Diagram.svg.xml",
-    "Index.md",
-    "Full Network Diagram.svg",
-    "AccesS to PC.svg",
-    "AV EVASION/Privilege Escalation.md",
-    "AV EVASION/Enumeration.md",
-    "PIVOTING/Enumeration.md",
-    "Local Network Diagram.svg.xml",
+    "GIT SERVER/Stabilisation & Post Exploitation.md",
+    "GIT SERVER/Exploitation.md",
+    "GIT SERVER/Code review.md",
+    "GIT SERVER/Searching for public exploit.md",
+    "GIT SERVER/Visit the webpage of git-serv.md",
+    "images/AccesS to PC.svg",
+    "docs",
+    "images/Stage of Compromise 100 Diagram.svg",
+    "images/Local Network Diagram.svg",
+    "images/Diagram.svg",
+    "images/Screenshot from 2025-03-07 19-52-17.png",
+    "images/Stage of Compromise 150 Diagram.svg",
+    "images/Screenshot from 2025-03-11 20-23-35.png",
+    "images/Screenshot from 2025-03-11 20-23-35 1.png",
+    "images/Stage of Compromise 200 Diagram.svg",
+    "images/Diagram 1.svg.xml",
+    "images/Diagram 1.svg",
+    "images/Stage of Compromise 100 Diagram.svg.xml",
+    "images/Stage of Compromise 150 Diagram.svg.xml",
+    "images/Local Network Diagram.svg.xml",
     "INTERNAL NETWORK",
-    "Stage of Compromise 200 Diagram.svg.xml",
-    "Network Diagram.svg.xml",
-    "Full Network Diagram.svg.xml",
-    "CONCLUSION",
-    "EXFILTRATION",
-    "AV EVASION"
+    "images/Stage of Compromise 200 Diagram.svg.xml",
+    "images/Network Diagram.svg.xml",
+    "images/Full Network Diagram.svg.xml",
+    "CONCLUSION"
   ]
 }

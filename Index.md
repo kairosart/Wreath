@@ -1,5 +1,6 @@
 ![[Index-20241124134005002.webp]]
 
+# Overview
 Wreath is designed as a learning resource for beginners with a primary focus on:
 
 - Pivoting
@@ -50,3 +51,66 @@ As this network is shared amongst a number of people, it goes without saying: pl
 
 With that being said:- let's get started!
 
+
+---
+# MAIN STEPS
+
+## WEBSERVER
+
+1. [[WEBSERVER/Enumeration]]
+2. [[WEBSERVER/Exploitation]]
+
+## PIVOTING
+
+1. [[What is Pivoting?]]
+2. [[High-level Overview]]
+3. [[Proxychains & Foxyproxy]]
+4. [[SSH Tunnelling  - Port Forwarding]]
+5. [[plink.exe]]
+6. [[Socat]]
+7. [[Chisel]]
+8. [[sshuttle]]
+9. [[PIVOTING/Conclusion]]
+
+## GIT-SERVER
+
+1. [[GIT SERVER/Enumeration]]
+2. [[GIT SERVER/Pivoting]]
+3. [[Visit the webpage of git-serv]]
+4. [[Searching for public exploit]]
+5. [[Code review]]
+6. [[GIT SERVER/Exploitation]]
+7. [[Stabilisation & Post Exploitation]]
+
+## COMMAND AND CONTROL
+
+1. [[Git Server]]
+2. [[Empire - Modules]]
+3. [[Empire - Interactive Shell]]
+4. [[COMMAND AND CONTROL/Conclusion]]
+
+## PERSONAL PC
+
+1. [[PERSONAL PC/Enumeration]]
+2. [[PERSONAL PC/Pivoting]]
+3. [[The Wonders of Git]]
+4. [[Website Code Analysis]]
+5. [[Exploit PoC]]
+
+## AV EVASION
+
+1. [[AV EVASION/Introduction]]
+2. [[AV Detection Methods]]
+3. [[PHP Payload Obfuscation]]
+4. [[Compiling Netcat & Reverse Shell!]]
+5. [[AV EVASION/Enumeration]]
+6. [[Privilege Escalation]]
+
+## EXFILTRATION
+
+1. [[Exfiltration Techniques & Post Exploitation]]
+
+## CONCLUSION
+
+1. [[Debrief & Report]]
+2. [[Final Thoughts]]
