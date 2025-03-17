@@ -43,23 +43,21 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "/media/sf_obsidian/Holo/docs",
+  "exportPath": "/home/emi/Documents/obsidian/Wreath/docs",
   "filesToExport": [
     [
+      "AV EVASION",
       "COMMAND AND CONTROL",
-      "COMPETITION",
-      "DOCKER BREAKOUT",
-      "FLAG SUBMISSION",
-      "INITIAL RECON",
+      "CONCLUSION",
+      "EXFILTRATION",
+      "GIT SERVER",
+      "INTERNAL NETWORK",
       "INTRO",
-      "NET BASICS",
+      "PERSONAL PC",
       "PIVOTING",
-      "POST EXPLOITATION",
-      "PRIVILEGE ESCALATION",
-      "SITUATIONAL AWARANESS",
-      "WEB APP EXPLOITATION",
-      "Images/Diagram.svg",
-      "index.md"
+      "WEBSERVER",
+      "Index.md",
+      "Wreath_report.pdf"
     ]
   ]
 }
